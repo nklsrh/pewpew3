@@ -1,0 +1,1421 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.0 r9654"
+   sodipodi:docname="Compilation.svg">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient3833">
+      <stop
+         style="stop-color:#ccba49;stop-opacity:1;"
+         offset="0"
+         id="stop3835" />
+      <stop
+         style="stop-color:#575433;stop-opacity:1;"
+         offset="1"
+         id="stop3837" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3833-0"
+       id="linearGradient3839-3"
+       x1="601.49158"
+       y1="-1222.5015"
+       x2="772.31592"
+       y2="1403.8953"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-2646.2678,85.313329)" />
+    <linearGradient
+       id="linearGradient3833-0">
+      <stop
+         style="stop-color:#e2d75b;stop-opacity:1;"
+         offset="0"
+         id="stop3835-5" />
+      <stop
+         style="stop-color:#3c4d57;stop-opacity:1;"
+         offset="1"
+         id="stop3837-7" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="4948.0406"
+     inkscape:cy="213.86557"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="664"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4"
+     inkscape:window-maximized="1"
+     inkscape:snap-nodes="false" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#d2b86a;fill-opacity:1;fill-rule:nonzero;stroke:#1e2c0b;stroke-width:9.19999980999999960;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3831"
+       width="2933.4829"
+       height="2303.1477"
+       x="-1095.0052"
+       y="-1068.958" />
+    <rect
+       style="fill:#101a1b;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect4273"
+       width="2862.8572"
+       height="562.85712"
+       x="-1065.7142"
+       y="-696.20923" />
+    <path
+       style="fill:#a78e50;fill-opacity:1;stroke:none"
+       d="m -1091.8713,866.6479 0.4428,-80.00001 44.3107,11.42858 3.6622,-194.28572 87.8945,40 7.32454,157.14286 29.29819,0 3.66227,-117.14286 124.51728,-2.85714 7.32454,117.14286 -7.32454,-297.14286 175.78909,0 -7.32454,288.57143 120.855,5.71429 -14.64909,-205.71429 117.19273,82.85714 14.64909,100 238.04774,-8.57143 3.66227,-74.28571 c 0,0 179.451372,-31.42857 179.451372,-8.57143 0,22.85714 14.64909,85.71429 14.64909,85.71429 l 58.596378,-2.85715 18.31136,-297.14285 65.92091,-2.85715 -18.31136,300 113.53045,-8.57142 -3.66227,-111.42858 c 0,0 43.94727,-205.71428 102.54364,-151.42857 58.59637,54.28572 51.27183,268.57143 51.27183,268.57143 l 388.20092,-11.42857 0,-51.42857 161.14,-2.85714 -3.66227,-42.85715 139.16638,5.71429 7.3246,34.28571 212.4118,0 7.3246,22.85715 175.789,-2.85715 -36.6227,-240 58.5964,0 36.6227,311.42857 25.636,0 -29.2983,-302.85714 91.5569,0 18.3113,300 141.8451,-1.96428 0.1786,87.67857 z"
+       id="path4173"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\buildings.png"
+       inkscape:export-xdpi="51.669998"
+       inkscape:export-ydpi="51.669998"
+       sodipodi:nodetypes="cccccccccccccccccccscccccccscccccccccccccccccccc" />
+    <g
+       id="g3818"
+       transform="matrix(0.99106874,0.13335199,-0.13335199,0.99106874,1032.0237,157.12328)"
+       inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\Tank.png"
+       inkscape:export-xdpi="17.879999"
+       inkscape:export-ydpi="17.879999">
+      <path
+         sodipodi:type="star"
+         style="fill:#ffc816;fill-opacity:1;fill-rule:nonzero;stroke:none;opacity:0.83628319"
+         id="path4106"
+         sodipodi:sides="5"
+         sodipodi:cx="2502.8571"
+         sodipodi:cy="689.50504"
+         sodipodi:r1="228.73209"
+         sodipodi:r2="114.36604"
+         sodipodi:arg1="-0.84726601"
+         sodipodi:arg2="-0.21894748"
+         inkscape:flatsided="false"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         d="m 2654.2857,518.07649 -39.7928,146.588 98.1965,115.88336 -151.7101,7.45295 -79.8672,129.20037 -53.9692,-141.98182 -147.5572,-36.03314 118.3553,-95.20254 -11.3281,-151.47008 127.1168,83.14342 z"
+         transform="matrix(0.99106874,-0.13335199,0.13335199,0.99106874,-1043.7591,-18.097557)"
+         inkscape:transform-center-x="6.7195752"
+         inkscape:transform-center-y="15.352323"
+         inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\Explosion.png"
+         inkscape:export-xdpi="17.879999"
+         inkscape:export-ydpi="17.879999" />
+      <path
+         sodipodi:type="star"
+         style="fill:#ff5116;fill-opacity:1;fill-rule:nonzero;stroke:none;opacity:0.81858407"
+         id="path4108"
+         sodipodi:sides="5"
+         sodipodi:cx="2434.2857"
+         sodipodi:cy="732.36218"
+         sodipodi:r1="264.11191"
+         sodipodi:r2="132.05596"
+         sodipodi:arg1="-1.4732805"
+         sodipodi:arg2="-0.84496199"
+         inkscape:flatsided="false"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         d="m 2459.9999,469.50504 61.9392,164.08644 170.2847,41.99912 -136.9152,109.61311 12.6773,174.92885 -146.5574,-96.34181 -162.4497,66.11284 46.3378,-169.15562 -113.0768,-134.06885 175.1957,-8.20212 z"
+         transform="matrix(0.99106874,-0.13335199,0.13335199,0.99106874,-1043.7591,-18.097557)"
+         inkscape:transform-center-x="-7.946182"
+         inkscape:transform-center-y="-17.54338"
+         inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\Explosion.png"
+         inkscape:export-xdpi="17.879999"
+         inkscape:export-ydpi="17.879999" />
+      <path
+         sodipodi:type="star"
+         style="fill:#ffc816;fill-opacity:1;fill-rule:nonzero;stroke:none;opacity:0.57079646"
+         id="path4110"
+         sodipodi:sides="5"
+         sodipodi:cx="2431.4286"
+         sodipodi:cy="758.07647"
+         sodipodi:r1="237.83033"
+         sodipodi:r2="118.91517"
+         sodipodi:arg1="-0.50126426"
+         sodipodi:arg2="0.12705427"
+         inkscape:flatsided="false"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         d="m 2640.0001,643.79076 -90.6147,129.35378 55.1876,147.97893 -151.0243,-46.20727 -123.6824,98.21458 -2.7233,-157.91144 -131.6276,-87.27899 149.3412,-51.38737 42.3321,-152.15596 95.0212,126.15231 z"
+         transform="matrix(0.99106874,-0.13335199,0.13335199,0.99106874,-1043.7591,-18.097557)"
+         inkscape:transform-center-x="13.670899"
+         inkscape:transform-center-y="-9.3125703"
+         inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\Explosion.png"
+         inkscape:export-xdpi="17.879999"
+         inkscape:export-ydpi="17.879999" />
+    </g>
+    <path
+       style="fill:#2a271a;fill-opacity:1;stroke:none"
+       d="m -1088.9283,809.70809 0,157.1429 0,157.14291 1262.8572,15.7143 1262.8572,15.7142 -28.5715,-162.85716 -0.2871,-162.85715 L 584.99045,794.48401 360.06373,848.15336 11.628648,808.97277 -163.0602,769.79219 l -104.16676,53.01814 -427.41558,12.61205 -197.14288,-12.85714 z"
+       id="path2985"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccccccc"
+       inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\ground.png"
+       inkscape:export-xdpi="35.869999"
+       inkscape:export-ydpi="35.869999" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="-739.43164"
+       y="-256.7955"
+       id="text3875"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\Title.png"
+       inkscape:export-xdpi="38.783047"
+       inkscape:export-ydpi="38.783047"><tspan
+         sodipodi:role="line"
+         x="-739.43164"
+         y="-256.7955"
+         style="font-size:444px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Downcome;-inkscape-font-specification:Downcome"
+         id="tspan3903"><tspan
+           style="fill:#ffffff;fill-opacity:1"
+           id="tspan3913">bATTLEFIELD<tspan
+   style="fill:#bbc0c3;fill-opacity:1;font-size:64px"
+   id="tspan4275">CSS</tspan></tspan><tspan
+           style="fill:#f1e700;fill-opacity:1"
+           id="tspan3915">3</tspan></tspan></text>
+    <g
+       id="g3971"
+       inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\Fighters.png"
+       inkscape:export-xdpi="13.56"
+       inkscape:export-ydpi="13.56">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3917"
+         d="m 3111.2698,-204.26758 -626.2945,88.89342 -137.3808,113.1370864 448.5077,-12.1218304 294.9646,60.609153 20.203,226.274171 68.6904,-117.1777 56.5686,-331.33003 z"
+         style="fill:#192028;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3929"
+         d="M 2650.6403,74.53452 2383.96,38.169028 2331.4321,58.372079 2476.894,171.50916 z"
+         style="fill:#1d262e;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3967"
+         d="m 3034.4983,-171.9427 12.1218,-117.1777 121.2183,-88.89342 307.0864,-4.04061 z"
+         style="fill:#96875e;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3927"
+         d="m 2767.818,-26.480735 c 0,0 -242.4366,149.502575 -258.5991,153.543185 -16.1624,4.04061 -96.9746,36.36549 -96.9746,36.36549 0,0 290.9239,28.28427 307.0863,28.28427 16.1625,0 727.3099,-472.75139 727.3099,-472.75139 l 113.1371,-133.34013 c 0,0 -218.193,20.20305 -234.3554,28.28427 -16.1625,8.08122 -375.7768,218.19295 -375.7768,218.19295 z"
+         style="fill:#2d3a47;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3931"
+         d="M 3058.7419,78.57513 3272.8942,-87.089887"
+         style="fill:none;stroke:#000000;stroke-width:36.39999999999999900;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3931-8"
+         d="M 2709.2291,-32.541654 2923.3814,-198.20666"
+         style="fill:none;stroke:#000000;stroke-width:36.40000153;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3931-2"
+         d="M 2523.3611,-8.2979883 2737.5134,-173.96301"
+         style="fill:none;stroke:#000000;stroke-width:36.40000153;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3931-1"
+         d="M 3036.5186,205.85435 3250.6709,40.18933"
+         style="fill:none;stroke:#000000;stroke-width:36.40000153;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3965"
+         d="m 2779.9398,143.22489 -32.3249,121.21831 -40.4061,-4.04061 -24.2436,-72.73099 z"
+         style="fill:#1d262e;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3969"
+         d="m 3356.4934,-294.98797 297.6343,-178.29537"
+         style="fill:#2d3a47;fill-opacity:1;stroke:#2d3a47;stroke-width:18;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+    <g
+       transform="matrix(0.27179571,0,0,0.35762025,2688.5612,342.35632)"
+       id="g3971-0"
+       inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\Fighters.png"
+       inkscape:export-xdpi="13.56"
+       inkscape:export-ydpi="13.56">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3917-1"
+         d="m 3111.2698,-204.26758 -626.2945,88.89342 -137.3808,113.1370864 448.5077,-12.1218304 294.9646,60.609153 20.203,226.274171 68.6904,-117.1777 56.5686,-331.33003 z"
+         style="fill:#192028;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3929-2"
+         d="M 2650.6403,74.53452 2383.96,38.169028 2331.4321,58.372079 2476.894,171.50916 z"
+         style="fill:#1d262e;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3967-5"
+         d="m 3034.4983,-171.9427 12.1218,-117.1777 121.2183,-88.89342 307.0864,-4.04061 z"
+         style="fill:#96875e;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3927-9"
+         d="m 2767.818,-26.480735 c 0,0 -242.4366,149.502575 -258.5991,153.543185 -16.1624,4.04061 -96.9746,36.36549 -96.9746,36.36549 0,0 290.9239,28.28427 307.0863,28.28427 16.1625,0 727.3099,-472.75139 727.3099,-472.75139 l 113.1371,-133.34013 c 0,0 -218.193,20.20305 -234.3554,28.28427 -16.1625,8.08122 -375.7768,218.19295 -375.7768,218.19295 z"
+         style="fill:#2d3a47;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3931-9"
+         d="M 3058.7419,78.57513 3272.8942,-87.089887"
+         style="fill:none;stroke:#000000;stroke-width:36.40000153;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3931-8-7"
+         d="M 2709.2291,-32.541654 2923.3814,-198.20666"
+         style="fill:none;stroke:#000000;stroke-width:36.40000153;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3931-2-6"
+         d="M 2523.3611,-8.2979883 2737.5134,-173.96301"
+         style="fill:none;stroke:#000000;stroke-width:36.40000153;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3931-1-1"
+         d="M 3036.5186,205.85435 3250.6709,40.18933"
+         style="fill:none;stroke:#000000;stroke-width:36.40000153;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3965-6"
+         d="m 2779.9398,143.22489 -32.3249,121.21831 -40.4061,-4.04061 -24.2436,-72.73099 z"
+         style="fill:#1d262e;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3969-1"
+         d="m 3356.4934,-294.98797 297.6343,-178.29537"
+         style="fill:#2d3a47;fill-opacity:1;stroke:#2d3a47;stroke-width:18;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+    <g
+       transform="matrix(0.40213609,0,0,0.49701563,2517.8416,-39.29053)"
+       id="g3971-0-4"
+       inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\Fighters.png"
+       inkscape:export-xdpi="13.56"
+       inkscape:export-ydpi="13.56">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3917-1-7"
+         d="m 3111.2698,-204.26758 -626.2945,88.89342 -137.3808,113.1370864 448.5077,-12.1218304 294.9646,60.609153 20.203,226.274171 68.6904,-117.1777 56.5686,-331.33003 z"
+         style="fill:#192028;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3929-2-7"
+         d="M 2650.6403,74.53452 2383.96,38.169028 2331.4321,58.372079 2476.894,171.50916 z"
+         style="fill:#1d262e;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3967-5-5"
+         d="m 3034.4983,-171.9427 12.1218,-117.1777 121.2183,-88.89342 307.0864,-4.04061 z"
+         style="fill:#96875e;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3927-9-4"
+         d="m 2767.818,-26.480735 c 0,0 -242.4366,149.502575 -258.5991,153.543185 -16.1624,4.04061 -96.9746,36.36549 -96.9746,36.36549 0,0 290.9239,28.28427 307.0863,28.28427 16.1625,0 727.3099,-472.75139 727.3099,-472.75139 l 113.1371,-133.34013 c 0,0 -218.193,20.20305 -234.3554,28.28427 -16.1625,8.08122 -375.7768,218.19295 -375.7768,218.19295 z"
+         style="fill:#2d3a47;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3931-9-1"
+         d="M 3058.7419,78.57513 3272.8942,-87.089887"
+         style="fill:none;stroke:#000000;stroke-width:36.40000153;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3931-8-7-9"
+         d="M 2709.2291,-32.541654 2923.3814,-198.20666"
+         style="fill:none;stroke:#000000;stroke-width:36.40000153;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3931-2-6-6"
+         d="M 2523.3611,-8.2979883 2737.5134,-173.96301"
+         style="fill:none;stroke:#000000;stroke-width:36.40000153;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3931-1-1-0"
+         d="M 3036.5186,205.85435 3250.6709,40.18933"
+         style="fill:none;stroke:#000000;stroke-width:36.40000153;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3965-6-8"
+         d="m 2779.9398,143.22489 -32.3249,121.21831 -40.4061,-4.04061 -24.2436,-72.73099 z"
+         style="fill:#1d262e;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3969-1-8"
+         d="m 3356.4934,-294.98797 297.6343,-178.29537"
+         style="fill:#2d3a47;fill-opacity:1;stroke:#2d3a47;stroke-width:18;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+    <g
+       transform="matrix(0.17176704,0,0,0.24503167,2093.2662,-378.72036)"
+       id="g3971-0-5"
+       inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\Fighters.png"
+       inkscape:export-xdpi="13.56"
+       inkscape:export-ydpi="13.56">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3917-1-9"
+         d="m 3111.2698,-204.26758 -626.2945,88.89342 -137.3808,113.1370864 448.5077,-12.1218304 294.9646,60.609153 20.203,226.274171 68.6904,-117.1777 56.5686,-331.33003 z"
+         style="fill:#192028;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3929-2-2"
+         d="M 2650.6403,74.53452 2383.96,38.169028 2331.4321,58.372079 2476.894,171.50916 z"
+         style="fill:#1d262e;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3967-5-4"
+         d="m 3034.4983,-171.9427 12.1218,-117.1777 121.2183,-88.89342 307.0864,-4.04061 z"
+         style="fill:#96875e;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3927-9-0"
+         d="m 2767.818,-26.480735 c 0,0 -242.4366,149.502575 -258.5991,153.543185 -16.1624,4.04061 -96.9746,36.36549 -96.9746,36.36549 0,0 290.9239,28.28427 307.0863,28.28427 16.1625,0 727.3099,-472.75139 727.3099,-472.75139 l 113.1371,-133.34013 c 0,0 -218.193,20.20305 -234.3554,28.28427 -16.1625,8.08122 -375.7768,218.19295 -375.7768,218.19295 z"
+         style="fill:#2d3a47;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3931-9-3"
+         d="M 3058.7419,78.57513 3272.8942,-87.089887"
+         style="fill:none;stroke:#000000;stroke-width:36.40000153;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3931-8-7-2"
+         d="M 2709.2291,-32.541654 2923.3814,-198.20666"
+         style="fill:none;stroke:#000000;stroke-width:36.40000153;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3931-2-6-5"
+         d="M 2523.3611,-8.2979883 2737.5134,-173.96301"
+         style="fill:none;stroke:#000000;stroke-width:36.40000153;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3931-1-1-1"
+         d="M 3036.5186,205.85435 3250.6709,40.18933"
+         style="fill:none;stroke:#000000;stroke-width:36.40000153;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3965-6-6"
+         d="m 2779.9398,143.22489 -32.3249,121.21831 -40.4061,-4.04061 -24.2436,-72.73099 z"
+         style="fill:#1d262e;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3969-1-3"
+         d="m 3356.4934,-294.98797 297.6343,-178.29537"
+         style="fill:#2d3a47;fill-opacity:1;stroke:#2d3a47;stroke-width:18;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+    <g
+       id="g4160"
+       inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\Tank.png"
+       inkscape:export-xdpi="27.985357"
+       inkscape:export-ydpi="27.985357"
+       transform="translate(14.285714,165.71429)">
+      <path
+         inkscape:export-ydpi="17.879999"
+         inkscape:export-xdpi="17.879999"
+         inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\Tank.png"
+         style="fill:#a5a065;fill-opacity:1;stroke:none"
+         d="m 966.6391,530.73124 40.0238,2.5025 -8.2875,-174.0886 -343.44049,2.7979 -539.90469,91.6786 -177.301203,10.7382 156.294053,188.2376 726.35914,-20.4642 z"
+         id="path3765"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:export-ydpi="17.879999"
+         inkscape:export-xdpi="17.879999"
+         inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\Tank.png"
+         style="fill:#595634;fill-opacity:1;stroke:none"
+         d="m 275.4308,536.27854 c 0,0 -324.630083,77.4967 -108.09094,162.3088 216.53915,84.812 295.46875,23.3627 578.48485,32.99 136.79289,4.6532 475.36629,-241.621 44.8473,-224.2227 -430.5191,17.3982 -515.24121,28.9239 -515.24121,28.9239 z"
+         id="path3755"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="csssc" />
+      <path
+         inkscape:export-ydpi="17.879999"
+         inkscape:export-xdpi="17.879999"
+         inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\Tank.png"
+         sodipodi:type="arc"
+         style="fill:#898450;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path3757"
+         sodipodi:cx="-462.85715"
+         sodipodi:cy="643.79077"
+         sodipodi:rx="77.14286"
+         sodipodi:ry="80"
+         d="m -385.71429,643.79077 c 0,44.18278 -34.53803,80 -77.14286,80 -42.60482,0 -77.14286,-35.81722 -77.14286,-80 0,-44.18278 34.53804,-80 77.14286,-80 42.60483,0 77.14286,35.81722 77.14286,80 z"
+         transform="matrix(0.99106874,0.13335199,-0.13335199,0.99106874,835.06531,64.827643)" />
+      <path
+         inkscape:export-ydpi="17.879999"
+         inkscape:export-xdpi="17.879999"
+         inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\Tank.png"
+         sodipodi:type="arc"
+         style="fill:#807c4b;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path3759"
+         sodipodi:cx="-107.14286"
+         sodipodi:cy="548.07648"
+         sodipodi:rx="92.85714"
+         sodipodi:ry="92.85714"
+         d="m -14.285721,548.07648 c 0,51.28358 -41.573557,92.85714 -92.857139,92.85714 -51.28358,0 -92.85714,-41.57356 -92.85714,-92.85714 0,-51.28359 41.57356,-92.85714 92.85714,-92.85714 51.283582,0 92.857139,41.57355 92.857139,92.85714 z"
+         transform="matrix(0.99106874,0.13335199,-0.13335199,0.99106874,996.0932,74.592753)" />
+      <path
+         inkscape:export-ydpi="17.879999"
+         inkscape:export-xdpi="17.879999"
+         inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\Tank.png"
+         transform="matrix(0.99106874,0.13335199,-0.13335199,0.99106874,1007.6979,72.058033)"
+         sodipodi:type="arc"
+         style="fill:#847f4d;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path3757-2"
+         sodipodi:cx="-462.85715"
+         sodipodi:cy="643.79077"
+         sodipodi:rx="77.14286"
+         sodipodi:ry="80"
+         d="m -385.71429,643.79077 c 0,44.18278 -34.53803,80 -77.14286,80 -42.60482,0 -77.14286,-35.81722 -77.14286,-80 0,-44.18278 34.53804,-80 77.14286,-80 42.60483,0 77.14286,35.81722 77.14286,80 z" />
+      <path
+         inkscape:export-ydpi="17.879999"
+         inkscape:export-xdpi="17.879999"
+         inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\Tank.png"
+         transform="matrix(0.99106874,0.13335199,-0.13335199,0.99106874,1184.0606,63.336003)"
+         sodipodi:type="arc"
+         style="fill:#747044;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path3757-6"
+         sodipodi:cx="-462.85715"
+         sodipodi:cy="643.79077"
+         sodipodi:rx="77.14286"
+         sodipodi:ry="80"
+         d="m -385.71429,643.79077 c 0,44.18278 -34.53803,80 -77.14286,80 -42.60482,0 -77.14286,-35.81722 -77.14286,-80 0,-44.18278 34.53804,-80 77.14286,-80 42.60483,0 77.14286,35.81722 77.14286,80 z" />
+      <path
+         inkscape:export-ydpi="17.879999"
+         inkscape:export-xdpi="17.879999"
+         inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\Tank.png"
+         style="fill:#b8b485;fill-opacity:1;stroke:none"
+         d="m 962.0671,564.71074 -3.9837,-141.7977 -282.45239,-0.5274 -151.1064,51.7403 -326.83168,7.9157 1.47219,31.9098 -182.96444,9.9762 89.9109,124.5306 135.25966,-62.5213 z"
+         id="path3763"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:export-ydpi="17.879999"
+         inkscape:export-xdpi="17.879999"
+         inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\Tank.png"
+         style="fill:#a9a46c;fill-opacity:1;stroke:none"
+         d="m 158.80311,321.13274 -313.43561,15.4839 1.63678,52.1122 340.06325,-20.5497 z"
+         id="path3769"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:export-ydpi="17.879999"
+         inkscape:export-xdpi="17.879999"
+         inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\Tank.png"
+         style="fill:#827e4c;fill-opacity:1;stroke:none"
+         d="m 179.43834,274.90014 -42.19705,77.926 31.09605,47.4275 62.67675,5.5505 397.12862,-58.9976 130.8522,-8.3394 64.1398,-112.4511 -30.3859,-9.8543 -431.81822,16.8524 z"
+         id="path3767"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:export-ydpi="17.879999"
+         inkscape:export-xdpi="17.879999"
+         inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\Tank.png"
+         style="fill:#9c965b;fill-opacity:1;stroke:none"
+         d="m -149.05372,375.63024 -423.32347,17.9954 0.97847,-28.6973 422.94241,-15.1638 z"
+         id="path3771"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:export-ydpi="17.879999"
+         inkscape:export-xdpi="17.879999"
+         inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\Tank.png"
+         style="fill:#3a3822;fill-opacity:1;stroke:none"
+         d="m 825.28541,228.41244 -20.3415,-182.126047 -16.5569,1.84923 z"
+         id="path3816"
+         inkscape:connector-curvature="0" />
+    </g>
+    <path
+       style="fill:#8c7a45;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="m 3375.9298,762.4484 56.5685,42.42641 70.7107,-37.37565 -21.2132,-29.29442 -56.5685,10.10153 -63.6396,-31.31473 z"
+       id="path4321"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\Soldier.png"
+       inkscape:export-xdpi="17.309999"
+       inkscape:export-ydpi="17.309999" />
+    <path
+       style="fill:#2a271a;fill-opacity:1;stroke:none"
+       d="m 3929.3268,808.52894 0,157.1429 0,157.14286 -1294.849,15.7144 -1294.849,15.7142 29.2953,-162.85721 0.2943,-162.85715 843.7844,-35.22408 230.6249,53.66935 357.2619,-39.18059 179.1142,-39.18058 106.8056,53.01814 438.2433,12.61205 202.137,-12.85714 z"
+       id="path2985-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccccccc"
+       inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\ground.png"
+       inkscape:export-xdpi="35.869999"
+       inkscape:export-ydpi="35.869999" />
+    <g
+       id="g4160-6"
+       inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\SmallTanks.png"
+       inkscape:export-xdpi="27.985357"
+       inkscape:export-ydpi="27.985357"
+       transform="matrix(0.36308502,0,0,0.36950635,1238.3015,574.89756)">
+      <path
+         inkscape:export-ydpi="17.879999"
+         inkscape:export-xdpi="17.879999"
+         inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\Tank.png"
+         style="fill:#a5a065;fill-opacity:1;stroke:none"
+         d="m 966.6391,530.73124 40.0238,2.5025 -8.2875,-174.0886 -343.44049,2.7979 -539.90469,91.6786 -177.301203,10.7382 156.294053,188.2376 726.35914,-20.4642 z"
+         id="path3765-7"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:export-ydpi="17.879999"
+         inkscape:export-xdpi="17.879999"
+         inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\Tank.png"
+         style="fill:#595634;fill-opacity:1;stroke:none"
+         d="m 275.4308,536.27854 c 0,0 -324.630083,77.4967 -108.09094,162.3088 216.53915,84.812 295.46875,23.3627 578.48485,32.99 136.79289,4.6532 475.36629,-241.621 44.8473,-224.2227 -430.5191,17.3982 -515.24121,28.9239 -515.24121,28.9239 z"
+         id="path3755-0"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="csssc" />
+      <path
+         inkscape:export-ydpi="17.879999"
+         inkscape:export-xdpi="17.879999"
+         inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\Tank.png"
+         sodipodi:type="arc"
+         style="fill:#898450;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path3757-4"
+         sodipodi:cx="-462.85715"
+         sodipodi:cy="643.79077"
+         sodipodi:rx="77.14286"
+         sodipodi:ry="80"
+         d="m -385.71429,643.79077 c 0,44.18278 -34.53803,80 -77.14286,80 -42.60482,0 -77.14286,-35.81722 -77.14286,-80 0,-44.18278 34.53804,-80 77.14286,-80 42.60483,0 77.14286,35.81722 77.14286,80 z"
+         transform="matrix(0.99106874,0.13335199,-0.13335199,0.99106874,835.06531,64.827643)" />
+      <path
+         inkscape:export-ydpi="17.879999"
+         inkscape:export-xdpi="17.879999"
+         inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\Tank.png"
+         sodipodi:type="arc"
+         style="fill:#807c4b;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path3759-3"
+         sodipodi:cx="-107.14286"
+         sodipodi:cy="548.07648"
+         sodipodi:rx="92.85714"
+         sodipodi:ry="92.85714"
+         d="m -14.285721,548.07648 c 0,51.28358 -41.573557,92.85714 -92.857139,92.85714 -51.28358,0 -92.85714,-41.57356 -92.85714,-92.85714 0,-51.28359 41.57356,-92.85714 92.85714,-92.85714 51.283582,0 92.857139,41.57355 92.857139,92.85714 z"
+         transform="matrix(0.99106874,0.13335199,-0.13335199,0.99106874,996.0932,74.592753)" />
+      <path
+         inkscape:export-ydpi="17.879999"
+         inkscape:export-xdpi="17.879999"
+         inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\Tank.png"
+         transform="matrix(0.99106874,0.13335199,-0.13335199,0.99106874,1007.6979,72.058033)"
+         sodipodi:type="arc"
+         style="fill:#847f4d;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path3757-2-7"
+         sodipodi:cx="-462.85715"
+         sodipodi:cy="643.79077"
+         sodipodi:rx="77.14286"
+         sodipodi:ry="80"
+         d="m -385.71429,643.79077 c 0,44.18278 -34.53803,80 -77.14286,80 -42.60482,0 -77.14286,-35.81722 -77.14286,-80 0,-44.18278 34.53804,-80 77.14286,-80 42.60483,0 77.14286,35.81722 77.14286,80 z" />
+      <path
+         inkscape:export-ydpi="17.879999"
+         inkscape:export-xdpi="17.879999"
+         inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\Tank.png"
+         transform="matrix(0.99106874,0.13335199,-0.13335199,0.99106874,1184.0606,63.336003)"
+         sodipodi:type="arc"
+         style="fill:#747044;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path3757-6-8"
+         sodipodi:cx="-462.85715"
+         sodipodi:cy="643.79077"
+         sodipodi:rx="77.14286"
+         sodipodi:ry="80"
+         d="m -385.71429,643.79077 c 0,44.18278 -34.53803,80 -77.14286,80 -42.60482,0 -77.14286,-35.81722 -77.14286,-80 0,-44.18278 34.53804,-80 77.14286,-80 42.60483,0 77.14286,35.81722 77.14286,80 z" />
+      <path
+         inkscape:export-ydpi="17.879999"
+         inkscape:export-xdpi="17.879999"
+         inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\Tank.png"
+         style="fill:#b8b485;fill-opacity:1;stroke:none"
+         d="m 962.0671,564.71074 -3.9837,-141.7977 -282.45239,-0.5274 -151.1064,51.7403 -326.83168,7.9157 1.47219,31.9098 -182.96444,9.9762 89.9109,124.5306 135.25966,-62.5213 z"
+         id="path3763-4"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:export-ydpi="17.879999"
+         inkscape:export-xdpi="17.879999"
+         inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\Tank.png"
+         style="fill:#a9a46c;fill-opacity:1;stroke:none"
+         d="m 158.80311,321.13274 -313.43561,15.4839 1.63678,52.1122 340.06325,-20.5497 z"
+         id="path3769-4"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:export-ydpi="17.879999"
+         inkscape:export-xdpi="17.879999"
+         inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\Tank.png"
+         style="fill:#827e4c;fill-opacity:1;stroke:none"
+         d="m 179.43834,274.90014 -42.19705,77.926 31.09605,47.4275 62.67675,5.5505 397.12862,-58.9976 130.8522,-8.3394 64.1398,-112.4511 -30.3859,-9.8543 -431.81822,16.8524 z"
+         id="path3767-43"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:export-ydpi="17.879999"
+         inkscape:export-xdpi="17.879999"
+         inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\Tank.png"
+         style="fill:#9c965b;fill-opacity:1;stroke:none"
+         d="m -149.05372,375.63024 -423.32347,17.9954 0.97847,-28.6973 422.94241,-15.1638 z"
+         id="path3771-6"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:export-ydpi="17.879999"
+         inkscape:export-xdpi="17.879999"
+         inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\Tank.png"
+         style="fill:#3a3822;fill-opacity:1;stroke:none"
+         d="m 825.28541,228.41244 -20.3415,-182.126047 -16.5569,1.84923 z"
+         id="path3816-44"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g4160-5"
+       inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\SmallTanks.png"
+       inkscape:export-xdpi="27.985357"
+       inkscape:export-ydpi="27.985357"
+       transform="matrix(0.51869493,0,0,0.50870625,1521.6548,517.02593)">
+      <path
+         inkscape:export-ydpi="17.879999"
+         inkscape:export-xdpi="17.879999"
+         inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\Tank.png"
+         style="fill:#a5a065;fill-opacity:1;stroke:none"
+         d="m 966.6391,530.73124 40.0238,2.5025 -8.2875,-174.0886 -343.44049,2.7979 -539.90469,91.6786 -177.301203,10.7382 156.294053,188.2376 726.35914,-20.4642 z"
+         id="path3765-4"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:export-ydpi="17.879999"
+         inkscape:export-xdpi="17.879999"
+         inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\Tank.png"
+         style="fill:#595634;fill-opacity:1;stroke:none"
+         d="m 275.4308,536.27854 c 0,0 -324.630083,77.4967 -108.09094,162.3088 216.53915,84.812 295.46875,23.3627 578.48485,32.99 136.79289,4.6532 475.36629,-241.621 44.8473,-224.2227 -430.5191,17.3982 -515.24121,28.9239 -515.24121,28.9239 z"
+         id="path3755-2"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="csssc" />
+      <path
+         inkscape:export-ydpi="17.879999"
+         inkscape:export-xdpi="17.879999"
+         inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\Tank.png"
+         sodipodi:type="arc"
+         style="fill:#898450;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path3757-0"
+         sodipodi:cx="-462.85715"
+         sodipodi:cy="643.79077"
+         sodipodi:rx="77.14286"
+         sodipodi:ry="80"
+         d="m -385.71429,643.79077 c 0,44.18278 -34.53803,80 -77.14286,80 -42.60482,0 -77.14286,-35.81722 -77.14286,-80 0,-44.18278 34.53804,-80 77.14286,-80 42.60483,0 77.14286,35.81722 77.14286,80 z"
+         transform="matrix(0.99106874,0.13335199,-0.13335199,0.99106874,835.06531,64.827643)" />
+      <path
+         inkscape:export-ydpi="17.879999"
+         inkscape:export-xdpi="17.879999"
+         inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\Tank.png"
+         sodipodi:type="arc"
+         style="fill:#807c4b;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path3759-7"
+         sodipodi:cx="-107.14286"
+         sodipodi:cy="548.07648"
+         sodipodi:rx="92.85714"
+         sodipodi:ry="92.85714"
+         d="m -14.285721,548.07648 c 0,51.28358 -41.573557,92.85714 -92.857139,92.85714 -51.28358,0 -92.85714,-41.57356 -92.85714,-92.85714 0,-51.28359 41.57356,-92.85714 92.85714,-92.85714 51.283582,0 92.857139,41.57355 92.857139,92.85714 z"
+         transform="matrix(0.99106874,0.13335199,-0.13335199,0.99106874,996.0932,74.592753)" />
+      <path
+         inkscape:export-ydpi="17.879999"
+         inkscape:export-xdpi="17.879999"
+         inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\Tank.png"
+         transform="matrix(0.99106874,0.13335199,-0.13335199,0.99106874,1007.6979,72.058033)"
+         sodipodi:type="arc"
+         style="fill:#847f4d;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path3757-2-6"
+         sodipodi:cx="-462.85715"
+         sodipodi:cy="643.79077"
+         sodipodi:rx="77.14286"
+         sodipodi:ry="80"
+         d="m -385.71429,643.79077 c 0,44.18278 -34.53803,80 -77.14286,80 -42.60482,0 -77.14286,-35.81722 -77.14286,-80 0,-44.18278 34.53804,-80 77.14286,-80 42.60483,0 77.14286,35.81722 77.14286,80 z" />
+      <path
+         inkscape:export-ydpi="17.879999"
+         inkscape:export-xdpi="17.879999"
+         inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\Tank.png"
+         transform="matrix(0.99106874,0.13335199,-0.13335199,0.99106874,1184.0606,63.336003)"
+         sodipodi:type="arc"
+         style="fill:#747044;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path3757-6-6"
+         sodipodi:cx="-462.85715"
+         sodipodi:cy="643.79077"
+         sodipodi:rx="77.14286"
+         sodipodi:ry="80"
+         d="m -385.71429,643.79077 c 0,44.18278 -34.53803,80 -77.14286,80 -42.60482,0 -77.14286,-35.81722 -77.14286,-80 0,-44.18278 34.53804,-80 77.14286,-80 42.60483,0 77.14286,35.81722 77.14286,80 z" />
+      <path
+         inkscape:export-ydpi="17.879999"
+         inkscape:export-xdpi="17.879999"
+         inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\Tank.png"
+         style="fill:#b8b485;fill-opacity:1;stroke:none"
+         d="m 962.0671,564.71074 -3.9837,-141.7977 -282.45239,-0.5274 -151.1064,51.7403 -326.83168,7.9157 1.47219,31.9098 -182.96444,9.9762 89.9109,124.5306 135.25966,-62.5213 z"
+         id="path3763-0"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:export-ydpi="17.879999"
+         inkscape:export-xdpi="17.879999"
+         inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\Tank.png"
+         style="fill:#a9a46c;fill-opacity:1;stroke:none"
+         d="m 158.80311,321.13274 -313.43561,15.4839 1.63678,52.1122 340.06325,-20.5497 z"
+         id="path3769-5"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:export-ydpi="17.879999"
+         inkscape:export-xdpi="17.879999"
+         inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\Tank.png"
+         style="fill:#827e4c;fill-opacity:1;stroke:none"
+         d="m 179.43834,274.90014 -42.19705,77.926 31.09605,47.4275 62.67675,5.5505 397.12862,-58.9976 130.8522,-8.3394 64.1398,-112.4511 -30.3859,-9.8543 -431.81822,16.8524 z"
+         id="path3767-4"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:export-ydpi="17.879999"
+         inkscape:export-xdpi="17.879999"
+         inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\Tank.png"
+         style="fill:#9c965b;fill-opacity:1;stroke:none"
+         d="m -149.05372,375.63024 -423.32347,17.9954 0.97847,-28.6973 422.94241,-15.1638 z"
+         id="path3771-7"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:export-ydpi="17.879999"
+         inkscape:export-xdpi="17.879999"
+         inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\Tank.png"
+         style="fill:#3a3822;fill-opacity:1;stroke:none"
+         d="m 825.28541,228.41244 -20.3415,-182.126047 -16.5569,1.84923 z"
+         id="path3816-4"
+         inkscape:connector-curvature="0" />
+    </g>
+    <path
+       style="fill:#bbaa75;fill-opacity:1;stroke:none"
+       d="m 3322.3917,690.72757 c 0,0 -34.3452,23.23351 -36.3655,29.29442 -2.0203,6.06092 -30.3046,83.84266 -22.2234,102.02541 8.0813,18.18274 15.1524,64.64976 27.2742,67.68022 12.1218,3.03046 57.5787,-36.36549 62.6294,8.08122 5.0508,44.44671 -18.1827,58.58885 -39.3959,77.78173 -21.2132,19.19293 -28.2843,18.18276 -28.2843,18.18276 l -2.0203,47.47717 c 0,0 82.8326,17.1726 88.8935,-55.5584 6.0609,-72.73098 28.2842,-101.01524 28.2842,-101.01524 0,0 9.0914,-100.0051 -4.0406,-139.40105 -13.132,-39.39595 -28.2843,-38.3858 -28.2843,-38.3858 l -5.0508,-18.18275 -38.3857,7.07107 z"
+       id="path4315"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csssssccscscccc"
+       inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\Soldier.png"
+       inkscape:export-xdpi="17.309999"
+       inkscape:export-ydpi="17.309999" />
+    <path
+       style="fill:#25231c;fill-opacity:1;stroke:none"
+       d="m 3391.0821,750.32657 182.8376,-7.07107 3.0305,10.10153 -80.8122,2.0203 -3.0305,23.23351 -23.2335,2.02031 29.2944,78.7919 -30.3046,2.0203 -24.2437,-79.80205 -42.4263,3.03046 c 0,0 19.1929,-16.16245 27.2741,16.16244 8.0812,32.32488 -26.264,53.53808 -26.264,53.53808 l -36.3654,2.02031 z"
+       id="path4323"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\Soldier.png"
+       inkscape:export-xdpi="17.309999"
+       inkscape:export-ydpi="17.309999"
+       sodipodi:nodetypes="ccccccccccsccc" />
+    <path
+       style="fill:#c89e54;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="m 3317.341,606.88491 c 0,0 -2.0203,103.03556 3.0304,103.03556 5.0508,0 61.6193,-7.07107 61.6193,-7.07107 l 20.2031,-103.03556 -79.8021,9.09138 z"
+       id="path4277"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\Soldier.png"
+       inkscape:export-xdpi="17.309999"
+       inkscape:export-ydpi="17.309999" />
+    <path
+       style="fill:#c8bb8e;fill-opacity:1;stroke:none"
+       d="m 3292.0871,627.08796 144.4518,-15.15229 c 0,0 -74.7513,-116.16754 -111.1167,-51.51778 -36.3655,64.64977 -33.3351,66.67007 -33.3351,66.67007 z"
+       id="path4279"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\Soldier.png"
+       inkscape:export-xdpi="17.309999"
+       inkscape:export-ydpi="17.309999" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:8.19999981;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 3320.3714,625.06765 c 0,0 18.1827,89.90358 36.3655,85.86297 18.1827,-4.04061 31.3147,-28.28427 31.3147,-28.28427 l -2.0203,-10.10153"
+       id="path4281"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\Soldier.png"
+       inkscape:export-xdpi="17.309999"
+       inkscape:export-ydpi="17.309999" />
+    <path
+       style="fill:#596b35;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="m 3390.0719,595.77323 -33.335,6.06092 c 0,0 -40.4061,3.03046 -36.3655,-5.05077 4.0406,-8.08122 -1.0101,-8.08122 15.1523,-10.10152 16.1624,-2.02031 22.2234,-2.02031 27.2741,-1.01015 5.0508,1.01015 7.0711,16.16244 10.1015,1.01015 3.0305,-15.15229 3.0305,-20.20305 9.0914,-17.17259 6.0609,3.03045 7.0711,17.17259 8.0812,26.26396 z"
+       id="path4283"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\Soldier.png"
+       inkscape:export-xdpi="17.309999"
+       inkscape:export-ydpi="17.309999" />
+    <path
+       style="fill:#b39933;fill-opacity:1;stroke:none"
+       d="m 3379.2888,613.53762 -23.212,-24.68118 c 0,0 -24.5134,-32.26341 -15.5342,-33.26633 8.9792,-1.00291 6.233,-5.24175 16.7166,7.22418 10.4836,12.46593 13.7791,17.55268 15.6776,22.34078 1.8985,4.78818 -9.7197,14.72252 4.6447,9.02702 14.3645,-5.69541 18.6034,-8.44167 19.3555,-1.70725 0.7522,6.73442 -10.5674,15.27177 -17.6482,21.06278 z"
+       id="path4283-3"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\Soldier.png"
+       inkscape:export-xdpi="17.309999"
+       inkscape:export-ydpi="17.309999" />
+    <path
+       style="fill:#626e3d;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="m 3435.5288,605.87476 c 0,0 -24.2437,-1.01015 -26.264,-7.07107 -2.0203,-6.06092 -3.0304,-18.18275 -3.0304,-18.18275 l -4.0406,-10.10152 z"
+       id="path4303"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\Soldier.png"
+       inkscape:export-xdpi="17.309999"
+       inkscape:export-ydpi="17.309999" />
+    <path
+       style="fill:#a48f51;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="m 3290.0668,756.38749 15.1523,44.44671 40.4061,19.1929 89.9036,-22.22336 -5.0508,-33.33503 -65.6599,6.06091 -39.3959,-32.32488 -32.3249,-13.13198 z"
+       id="path4317"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\Soldier.png"
+       inkscape:export-xdpi="17.309999"
+       inkscape:export-ydpi="17.309999" />
+    <path
+       style="fill:#a48f51;fill-opacity:1;stroke:none"
+       d="m 3289.0567,875.58549 -1.0101,30.30458 61.6193,44.44671 -3.0304,88.89342 51.5177,2.0203 19.1929,-129.29951 -56.5685,-41.41627 z"
+       id="path4319"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccc"
+       inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\Soldier.png"
+       inkscape:export-xdpi="17.309999"
+       inkscape:export-ydpi="17.309999" />
+    <path
+       style="fill:#3a3a38;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="m 3493.1075,765.47886 122.2285,-4.04061 -1.0102,-15.15229 -120.2081,7.07107 z"
+       id="path4325"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\Soldier.png"
+       inkscape:export-xdpi="17.309999"
+       inkscape:export-ydpi="17.309999" />
+    <path
+       style="fill:#25231c;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="m 3452.7014,750.32657 -6.0609,-45.45686 27.2741,3.03045 1.0102,28.28428 -8.0813,1.01015 2.0203,22.22335 z"
+       id="path4327"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\Soldier.png"
+       inkscape:export-xdpi="17.309999"
+       inkscape:export-ydpi="17.309999" />
+    <path
+       style="fill:#312c1e;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="m 3288.0465,1040.2404 c 0,0 -15.1523,62.6294 -28.2842,31.3147 -13.132,-31.3147 -7.0711,-69.7005 -7.0711,-69.7005 l 37.3756,-4.04065 z"
+       id="path4329"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\Soldier.png"
+       inkscape:export-xdpi="17.309999"
+       inkscape:export-ydpi="17.309999" />
+    <path
+       style="fill:#312c1e;fill-opacity:1;stroke:none"
+       d="m 3395.748,1043.6753 c 0,0 58.2605,27.5273 24.9346,34.0422 -33.3259,6.515 -69.6875,-7.1975 -69.6875,-7.1975 l 3.6158,-37.4191 z"
+       id="path4329-7"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\Soldier.png"
+       inkscape:export-xdpi="17.309999"
+       inkscape:export-ydpi="17.309999" />
+    <path
+       style="fill:#495e27;fill-opacity:1;stroke:none"
+       d="m 3353.1045,938.6466 -23.212,-24.68118 c 0,0 -24.5134,-32.26341 -15.5342,-33.26633 8.9792,-1.00291 6.233,-5.24175 16.7166,7.22418 10.4836,12.46593 13.7791,17.55268 15.6776,22.34078 1.8985,4.78818 -9.7197,14.72252 4.6447,9.02702 14.3645,-5.69541 18.6034,-8.44167 19.3555,-1.70725 0.7522,6.73442 -10.5674,15.27177 -17.6482,21.06278 z"
+       id="path4283-3-2"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\Soldier.png"
+       inkscape:export-xdpi="17.309999"
+       inkscape:export-ydpi="17.309999" />
+    <path
+       style="fill:#69581c;fill-opacity:1;stroke:none"
+       d="m 3351.4712,1004.4566 18.9943,-28.05667 c 0,0 26.1068,-30.98809 29.0532,-22.44696 2.9463,8.54113 6.4803,4.93273 -3.3851,17.89342 -9.8654,12.96069 -14.1062,17.29083 -18.3619,20.19253 -4.2557,2.9017 -16.4947,-6.25695 -7.7897,6.5101 8.705,12.76708 12.3135,16.30108 5.9076,18.51078 -6.4059,2.2098 -17.2164,-6.9637 -24.4184,-12.6032 z"
+       id="path4283-3-28"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\Soldier.png"
+       inkscape:export-xdpi="17.309999"
+       inkscape:export-ydpi="17.309999" />
+    <path
+       style="fill:#b39933;fill-opacity:1;stroke:none"
+       d="m 3319.7695,862.04273 -23.212,-0.59418 c 0,0 -24.5134,-6.82595 -15.5342,-17.14655 8.9792,-10.32059 6.233,-11.70971 16.7166,-10.12257 10.4836,1.58714 13.7791,3.25416 15.6776,6.07219 1.8985,2.81812 -9.7197,24.80862 4.6447,4.20724 14.3645,-20.6014 18.6034,-27.74635 19.3555,-21.79238 0.7522,5.95386 -10.5674,26.23752 -17.6482,39.37625 z"
+       id="path4283-3-21"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\Soldier.png"
+       inkscape:export-xdpi="17.309999"
+       inkscape:export-ydpi="17.309999" />
+    <path
+       style="fill:#43611c;fill-opacity:1;stroke:none"
+       d="m 3339.9725,807.32677 -23.212,-24.68118 c 0,0 -24.5134,-32.26341 -15.5342,-33.26633 8.9792,-1.00291 6.233,-5.24175 16.7166,7.22418 10.4836,12.46593 13.7791,17.55268 15.6776,22.34078 1.8985,4.78818 -9.7197,14.72252 4.6447,9.02702 14.3645,-5.69541 18.6034,-8.44167 19.3555,-1.70725 0.7522,6.73442 -10.5674,15.27177 -17.6482,21.06278 z"
+       id="path4283-3-4"
+       inkscape:connector-curvature="0"
+       inkscape:transform-center-x="14.142136"
+       inkscape:transform-center-y="95.964492"
+       inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\Soldier.png"
+       inkscape:export-xdpi="17.309999"
+       inkscape:export-ydpi="17.309999" />
+    <path
+       style="fill:#656c1f;fill-opacity:1;stroke:none"
+       d="m 3390.4801,885.10852 -23.212,-24.68118 c 0,0 -28.554,-2.96899 -19.5748,-3.97191 8.9792,-1.00291 25.4259,-11.30266 35.9095,1.16327 10.4836,12.46593 -1.3732,-5.68083 0.5253,-0.89273 1.8985,4.78818 -9.7197,14.72252 4.6447,9.02702 14.3645,-5.69541 5.4714,-11.47213 6.2235,-4.73771 0.7522,6.73442 2.5646,18.30223 -4.5162,24.09324 z"
+       id="path4283-3-8"
+       inkscape:connector-curvature="0"
+       inkscape:transform-center-x="17.172593"
+       inkscape:transform-center-y="-29.726082"
+       sodipodi:nodetypes="ccsssscc"
+       inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\Soldier.png"
+       inkscape:export-xdpi="17.309999"
+       inkscape:export-ydpi="17.309999" />
+    <path
+       style="fill:#485233;fill-opacity:1;stroke:none"
+       d="m 3405.7547,919.38191 -20.7772,26.76315 c 0,0 -28.0652,29.2262 -30.4504,20.51166 -2.3851,-8.71452 -6.1461,-5.34338 4.5406,-17.63564 10.6868,-12.29225 15.2,-16.33768 19.6352,-18.95671 4.4353,-2.61904 16.0533,7.31553 8.1963,-5.99018 -7.857,-13.30574 -11.2283,-17.06675 -4.6923,-18.85557 6.5359,-1.78888 16.7275,8.06773 23.5478,14.16329 z"
+       id="path4283-3-28-3"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\Soldier.png"
+       inkscape:export-xdpi="17.309999"
+       inkscape:export-ydpi="17.309999" />
+    <path
+       style="fill:#292d0c;fill-opacity:1;stroke:none"
+       d="m 3333.2752,1026.3056 -23.212,-24.6811 c 0,0 -28.554,-2.96903 -19.5748,-3.97195 8.9792,-1.00291 25.4259,-11.30266 35.9095,1.16327 10.4836,12.46598 -1.3732,-5.68083 0.5253,-0.89273 1.8985,4.78821 -9.7197,14.72251 4.6447,9.02701 14.3645,-5.6954 5.4714,-11.47212 6.2235,-4.7377 0.7522,6.7344 2.5646,18.3022 -4.5162,24.0932 z"
+       id="path4283-3-8-0"
+       inkscape:connector-curvature="0"
+       inkscape:transform-center-x="17.172593"
+       inkscape:transform-center-y="-29.726082"
+       sodipodi:nodetypes="ccsssscc"
+       inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\Soldier.png"
+       inkscape:export-xdpi="17.309999"
+       inkscape:export-ydpi="17.309999" />
+    <path
+       transform="translate(-83.84287,-197.98988)"
+       sodipodi:type="arc"
+       style="fill:#c6c4a0;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path4431-7"
+       sodipodi:cx="4211.3262"
+       sodipodi:cy="886.69714"
+       sodipodi:rx="174.75639"
+       sodipodi:ry="181.82745"
+       d="m 4386.0826,886.69714 a 174.75639,181.82745 0 1 1 -349.5128,0 174.75639,181.82745 0 1 1 349.5128,0 z"
+       inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\smoke.png"
+       inkscape:export-xdpi="17.309999"
+       inkscape:export-ydpi="17.309999" />
+    <path
+       transform="translate(162.63435,-252.53812)"
+       sodipodi:type="arc"
+       style="fill:#c6c4a0;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path4431-41"
+       sodipodi:cx="4211.3262"
+       sodipodi:cy="886.69714"
+       sodipodi:rx="174.75639"
+       sodipodi:ry="181.82745"
+       d="m 4386.0826,886.69714 a 174.75639,181.82745 0 1 1 -349.5128,0 174.75639,181.82745 0 1 1 349.5128,0 z"
+       inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\smoke.png"
+       inkscape:export-xdpi="17.309999"
+       inkscape:export-ydpi="17.309999" />
+    <path
+       transform="translate(178.79678,-517.19808)"
+       sodipodi:type="arc"
+       style="fill:#c6c4a0;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path4431-88"
+       sodipodi:cx="4211.3262"
+       sodipodi:cy="886.69714"
+       sodipodi:rx="174.75639"
+       sodipodi:ry="181.82745"
+       d="m 4386.0826,886.69714 a 174.75639,181.82745 0 1 1 -349.5128,0 174.75639,181.82745 0 1 1 349.5128,0 z"
+       inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\smoke.png"
+       inkscape:export-xdpi="17.309999"
+       inkscape:export-ydpi="17.309999" />
+    <path
+       transform="translate(308.09632,-373.75642)"
+       sodipodi:type="arc"
+       style="fill:#c6c4a0;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path4431-8"
+       sodipodi:cx="4211.3262"
+       sodipodi:cy="886.69714"
+       sodipodi:rx="174.75639"
+       sodipodi:ry="181.82745"
+       d="m 4386.0826,886.69714 a 174.75639,181.82745 0 1 1 -349.5128,0 174.75639,181.82745 0 1 1 349.5128,0 z"
+       inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\smoke.png"
+       inkscape:export-xdpi="17.309999"
+       inkscape:export-ydpi="17.309999" />
+    <path
+       style="fill:#14130d;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 4520,700.93361 c 0,0 91.4285,-88.57143 108.5714,-91.42857 17.1428,-2.85714 157.1428,65.71429 177.1428,42.85714 20,-22.85714 -12.2577,10.73985 85.7143,-28.57143 24.8407,-9.96734 120,11.42858 120,11.42858 17.3788,58.60528 142.6632,61.44699 248.5714,74.28571 17.1429,2.85714 165.7143,77.14286 165.7143,77.14286 0,0 60,17.14285 71.4286,20 11.4286,2.85714 68.5714,0 108.5714,17.14285 40,17.14286 168.7596,-5.71428 168.7596,-5.71428 l -0.015,135.80094 -0.1734,155.62759 -1258.989,-7.2444 z"
+       id="path3197"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cssscccssccccc"
+       inkscape:export-filename="D:\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\tankGround.png"
+       inkscape:export-xdpi="98.379997"
+       inkscape:export-ydpi="98.379997" />
+    <path
+       transform="translate(-9.0915828,-484.8732)"
+       sodipodi:type="arc"
+       style="fill:#c6c4a0;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path4431-2"
+       sodipodi:cx="4211.3262"
+       sodipodi:cy="886.69714"
+       sodipodi:rx="174.75639"
+       sodipodi:ry="181.82745"
+       d="m 4386.0826,886.69714 a 174.75639,181.82745 0 1 1 -349.5128,0 174.75639,181.82745 0 1 1 349.5128,0 z"
+       inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\smoke.png"
+       inkscape:export-xdpi="17.309999"
+       inkscape:export-ydpi="17.309999" />
+    <path
+       transform="translate(-192.93935,-488.91381)"
+       sodipodi:type="arc"
+       style="fill:#c6c4a0;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path4431-81"
+       sodipodi:cx="4211.3262"
+       sodipodi:cy="886.69714"
+       sodipodi:rx="174.75639"
+       sodipodi:ry="181.82745"
+       d="m 4386.0826,886.69714 a 174.75639,181.82745 0 1 1 -349.5128,0 174.75639,181.82745 0 1 1 349.5128,0 z"
+       inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\smoke.png"
+       inkscape:export-xdpi="17.309999"
+       inkscape:export-ydpi="17.309999" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#c6c4a0;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path4431"
+       sodipodi:cx="4211.3262"
+       sodipodi:cy="886.69714"
+       sodipodi:rx="174.75639"
+       sodipodi:ry="181.82745"
+       d="m 4386.0826,886.69714 a 174.75639,181.82745 0 1 1 -349.5128,0 174.75639,181.82745 0 1 1 349.5128,0 z"
+       inkscape:export-filename="D:\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\SoldierWalkie.png"
+       inkscape:export-xdpi="17.309999"
+       inkscape:export-ydpi="17.309999"
+       transform="translate(40.406102,-26.263966)" />
+    <path
+       transform="translate(116.16733,-50.507604)"
+       sodipodi:type="arc"
+       style="fill:#c6c4a0;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path4431-4"
+       sodipodi:cx="4211.3262"
+       sodipodi:cy="886.69714"
+       sodipodi:rx="174.75639"
+       sodipodi:ry="181.82745"
+       d="m 4386.0826,886.69714 a 174.75639,181.82745 0 1 1 -349.5128,0 174.75639,181.82745 0 1 1 349.5128,0 z"
+       inkscape:export-filename="D:\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\SoldierWalkie.png"
+       inkscape:export-xdpi="17.309999"
+       inkscape:export-ydpi="17.309999" />
+    <path
+       transform="translate(-47.477378,-672.76157)"
+       sodipodi:type="arc"
+       style="fill:#c6c4a0;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path4431-6"
+       sodipodi:cx="4211.3262"
+       sodipodi:cy="886.69714"
+       sodipodi:rx="174.75639"
+       sodipodi:ry="181.82745"
+       d="m 4386.0826,886.69714 a 174.75639,181.82745 0 1 1 -349.5128,0 174.75639,181.82745 0 1 1 349.5128,0 z"
+       inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\smoke.png"
+       inkscape:export-xdpi="17.309999"
+       inkscape:export-ydpi="17.309999" />
+    <path
+       style="fill:#8c7a45;fill-opacity:1;stroke:none"
+       d="m 4318.0902,751.69106 56.5685,42.42641 70.7107,-37.37565 -21.2132,-29.29442 -56.5685,10.10153 -30.3046,-39.39595 z"
+       id="path4321-1"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\SoldierWalkie.png"
+       inkscape:export-xdpi="98.379997"
+       inkscape:export-ydpi="98.379997"
+       sodipodi:nodetypes="ccccccc" />
+    <path
+       style="fill:#bbaa75;fill-opacity:1;stroke:none"
+       d="m 4377.6892,667.8484 c 0,0 -34.3452,23.23351 -36.3655,29.29442 -2.0203,6.06092 -5.0508,76.77159 3.0304,94.95434 8.0813,18.18274 -10.1014,71.72083 2.0204,74.75129 12.1218,3.03046 -9.0914,-35.35534 -4.0407,9.09137 5.0508,44.44671 43.4366,54.54824 22.2234,73.74114 -21.2132,19.1929 -23.2335,21.2132 -23.2335,21.2132 l -2.0203,47.47724 c 0,0 82.8326,17.1725 88.8935,-55.55844 6.0609,-72.73101 28.2842,-101.01527 28.2842,-101.01527 0,0 9.0914,-100.0051 -4.0406,-139.40105 -13.132,-39.39595 -28.2843,-38.3858 -28.2843,-38.3858 l -5.0508,-18.18275 -38.3857,7.07107 z"
+       id="path4315-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csssssccscscccc"
+       inkscape:export-filename="D:\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\SoldierWalkie.png"
+       inkscape:export-xdpi="98.379997"
+       inkscape:export-ydpi="98.379997" />
+    <path
+       style="fill:#c89e54;fill-opacity:1;stroke:none"
+       d="m 4372.6385,584.00574 c 0,0 -2.0203,103.03556 3.0304,103.03556 5.0508,0 61.6193,-7.07107 61.6193,-7.07107 l 20.2031,-103.03556 -79.8021,9.09138 z"
+       id="path4277-4"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\SoldierWalkie.png"
+       inkscape:export-xdpi="98.379997"
+       inkscape:export-ydpi="98.379997" />
+    <path
+       style="fill:#c8bb8e;fill-opacity:1;stroke:none"
+       d="m 4347.3846,604.20879 144.4518,-15.15229 c 0,0 -74.7513,-116.16754 -111.1167,-51.51778 -36.3655,64.64977 -33.3351,66.67007 -33.3351,66.67007 z"
+       id="path4279-0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\SoldierWalkie.png"
+       inkscape:export-xdpi="98.379997"
+       inkscape:export-ydpi="98.379997" />
+    <path
+       style="fill:#596b35;fill-opacity:1;stroke:none"
+       d="m 4463.5521,584.00574 -33.335,6.06092 c 0,0 -40.4061,3.03046 -36.3655,-5.05077 4.0406,-8.08122 -1.0101,-8.08122 15.1523,-10.10152 16.1624,-2.02031 22.2234,-2.02031 27.2741,-1.01015 5.0508,1.01015 7.0711,16.16244 10.1015,1.01015 3.0305,-15.15229 3.0305,-20.20305 9.0914,-17.17259 6.0609,3.03045 7.0711,17.17259 8.0812,26.26396 z"
+       id="path4283-4"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\SoldierWalkie.png"
+       inkscape:export-xdpi="98.379997"
+       inkscape:export-ydpi="98.379997" />
+    <path
+       style="fill:#b39933;fill-opacity:1;stroke:none"
+       d="m 4461.8604,592.67876 -23.212,-24.68118 c 0,0 -24.5134,-32.26341 -15.5342,-33.26633 8.9792,-1.00291 6.233,-5.24175 16.7166,7.22418 10.4836,12.46593 13.7791,17.55268 15.6776,22.34078 1.8985,4.78818 -9.7197,14.72252 4.6447,9.02702 14.3645,-5.69541 18.6034,-8.44167 19.3555,-1.70725 0.7522,6.73442 -10.5674,15.27177 -17.6482,21.06278 z"
+       id="path4283-3-88"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\SoldierWalkie.png"
+       inkscape:export-xdpi="98.379997"
+       inkscape:export-ydpi="98.379997" />
+    <path
+       style="fill:#a48f51;fill-opacity:1;stroke:none"
+       d="m 4422.1359,762.80274 15.1523,44.44671 40.4061,19.1929 89.9036,-22.22336 -5.0508,-33.33503 -65.6599,6.06091 -39.3959,-32.32488 -32.3249,-13.13198 z"
+       id="path4317-4"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\SoldierWalkie.png"
+       inkscape:export-xdpi="98.379997"
+       inkscape:export-ydpi="98.379997" />
+    <path
+       style="fill:#312c1e;fill-opacity:1;stroke:none"
+       d="m 4492.7599,987.20846 c 0,0 62.8364,-14.2696 40.6241,11.4145 -22.2123,25.68424 -59.2907,37.31974 -59.2907,37.31974 l -20.235,-31.683 z"
+       id="path4329-7-7"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\SoldierWalkie.png"
+       inkscape:export-xdpi="98.379997"
+       inkscape:export-ydpi="98.379997" />
+    <path
+       style="fill:#a48f51;fill-opacity:1;stroke:none"
+       d="m 4351.4253,846.6454 10.1015,48.48733 43.4366,32.32488 45.4569,80.81229 45.4568,-8.0813 -23.2335,-111.11678 -56.5685,-41.41627 z"
+       id="path4319-5"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccc"
+       inkscape:export-filename="D:\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\SoldierWalkie.png"
+       inkscape:export-xdpi="98.379997"
+       inkscape:export-ydpi="98.379997" />
+    <path
+       style="fill:#312c1e;fill-opacity:1;stroke:none"
+       d="m 4343.344,1017.3613 c 0,0 -15.1523,62.6293 -28.2842,31.3146 -13.132,-31.3146 -7.0711,-69.70044 -7.0711,-69.70044 l 37.3756,-4.0407 z"
+       id="path4329-1"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\SoldierWalkie.png"
+       inkscape:export-xdpi="98.379997"
+       inkscape:export-ydpi="98.379997" />
+    <path
+       style="fill:#495e27;fill-opacity:1;stroke:none"
+       d="m 4408.402,915.76743 -23.212,-24.68118 c 0,0 -24.5134,-32.26341 -15.5342,-33.26633 8.9792,-1.00291 6.233,-5.24175 16.7166,7.22418 10.4836,12.46593 13.7791,17.55268 15.6776,22.34078 1.8985,4.78818 -9.7197,14.72252 4.6447,9.02702 14.3645,-5.69541 18.6034,-8.44167 19.3555,-1.70725 0.7522,6.73442 -10.5674,15.27177 -17.6482,21.06278 z"
+       id="path4283-3-2-1"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\SoldierWalkie.png"
+       inkscape:export-xdpi="98.379997"
+       inkscape:export-ydpi="98.379997" />
+    <path
+       style="fill:#69581c;fill-opacity:1;stroke:none"
+       d="m 4424.9514,963.39466 18.9943,-28.05665 c 0,0 26.1068,-30.98809 29.0532,-22.44696 2.9463,8.54113 6.4803,4.93273 -3.3851,17.89342 -9.8654,12.96069 -14.1062,17.29079 -18.3619,20.19249 -4.2557,2.9017 -16.4947,-6.2569 -7.7897,6.5101 8.705,12.7671 12.3135,16.3011 5.9076,18.5108 -6.4059,2.2098 -17.2164,-6.9637 -24.4184,-12.6032 z"
+       id="path4283-3-28-1"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\SoldierWalkie.png"
+       inkscape:export-xdpi="98.379997"
+       inkscape:export-ydpi="98.379997" />
+    <path
+       style="fill:#b39933;fill-opacity:1;stroke:none"
+       d="m 4380.1178,841.18387 -23.212,-0.59418 c 0,0 -24.5134,-6.82595 -15.5342,-17.14655 8.9792,-10.32059 6.233,-11.70971 16.7166,-10.12257 10.4836,1.58714 13.7791,3.25416 15.6776,6.07219 1.8985,2.81812 -9.7197,24.80862 4.6447,4.20724 14.3645,-20.6014 18.6034,-27.74635 19.3555,-21.79238 0.7522,5.95386 -10.5674,26.23752 -17.6482,39.37625 z"
+       id="path4283-3-21-5"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\SoldierWalkie.png"
+       inkscape:export-xdpi="98.379997"
+       inkscape:export-ydpi="98.379997" />
+    <path
+       style="fill:#43611c;fill-opacity:1;stroke:none"
+       d="m 4395.27,784.4476 -23.212,-24.68118 c 0,0 -24.5134,-32.26341 -15.5342,-33.26633 8.9792,-1.00291 6.233,-5.24175 16.7166,7.22418 10.4836,12.46593 13.7791,17.55268 15.6776,22.34078 1.8985,4.78818 -9.7197,14.72252 4.6447,9.02702 14.3645,-5.69541 18.6034,-8.44167 19.3555,-1.70725 0.7522,6.73442 -10.5674,15.27177 -17.6482,21.06278 z"
+       id="path4283-3-4-2"
+       inkscape:connector-curvature="0"
+       inkscape:transform-center-x="14.142136"
+       inkscape:transform-center-y="95.964492"
+       inkscape:export-filename="D:\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\SoldierWalkie.png"
+       inkscape:export-xdpi="98.379997"
+       inkscape:export-ydpi="98.379997" />
+    <path
+       style="fill:#656c1f;fill-opacity:1;stroke:none"
+       d="m 4445.7776,862.22935 -23.212,-24.68118 c 0,0 -28.554,-2.96899 -19.5748,-3.97191 8.9792,-1.00291 25.4259,-11.30266 35.9095,1.16327 10.4836,12.46593 -1.3732,-5.68083 0.5253,-0.89273 1.8985,4.78818 -9.7197,14.72252 4.6447,9.02702 14.3645,-5.69541 5.4714,-11.47213 6.2235,-4.73771 0.7522,6.73442 2.5646,18.30223 -4.5162,24.09324 z"
+       id="path4283-3-8-7"
+       inkscape:connector-curvature="0"
+       inkscape:transform-center-x="17.172593"
+       inkscape:transform-center-y="-29.726082"
+       sodipodi:nodetypes="ccsssscc"
+       inkscape:export-filename="D:\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\SoldierWalkie.png"
+       inkscape:export-xdpi="98.379997"
+       inkscape:export-ydpi="98.379997" />
+    <path
+       style="fill:#485233;fill-opacity:1;stroke:none"
+       d="m 4461.0522,896.50274 -20.7772,26.76315 c 0,0 -28.0652,29.22617 -30.4504,20.51167 -2.3851,-8.71453 -6.1461,-5.34339 4.5406,-17.63565 10.6868,-12.29225 15.2,-16.33768 19.6352,-18.95671 4.4353,-2.61904 16.0533,7.31553 8.1963,-5.99018 -7.857,-13.30574 -11.2283,-17.06675 -4.6923,-18.85557 6.5359,-1.78888 16.7275,8.06773 23.5478,14.16329 z"
+       id="path4283-3-28-3-6"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\SoldierWalkie.png"
+       inkscape:export-xdpi="98.379997"
+       inkscape:export-ydpi="98.379997" />
+    <path
+       style="fill:#292d0c;fill-opacity:1;stroke:none"
+       d="m 4388.5727,1003.4265 -23.212,-24.68114 c 0,0 -28.554,-2.9691 -19.5748,-3.972 8.9792,-1.0029 25.4259,-11.3026 35.9095,1.1633 10.4836,12.466 -1.3732,-5.6808 0.5253,-0.8927 1.8985,4.7882 -9.7197,14.7225 4.6447,9.027 14.3645,-5.6954 5.4714,-11.4721 6.2235,-4.7377 0.7522,6.7344 2.5646,18.3022 -4.5162,24.09324 z"
+       id="path4283-3-8-0-1"
+       inkscape:connector-curvature="0"
+       inkscape:transform-center-x="17.172593"
+       inkscape:transform-center-y="-29.726082"
+       sodipodi:nodetypes="ccsssscc"
+       inkscape:export-filename="D:\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\SoldierWalkie.png"
+       inkscape:export-xdpi="98.379997"
+       inkscape:export-ydpi="98.379997" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       d="m 4416.3869,596.78338 34.3452,74.75129 2.0203,-13.13198 z"
+       id="path3985"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\SoldierWalkie.png"
+       inkscape:export-xdpi="98.379997"
+       inkscape:export-ydpi="98.379997" />
+    <path
+       style="fill:#939393;fill-opacity:1;stroke:none"
+       d="m 4558.8184,716.99153 c 1.0102,-10.10152 -23.2335,-87.88327 -23.2335,-87.88327 l 8.0813,-3.03045 20.203,91.92388 z"
+       id="path3989"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\SoldierWalkie.png"
+       inkscape:export-xdpi="98.379997"
+       inkscape:export-ydpi="98.379997" />
+    <path
+       style="fill:#626465;fill-opacity:1;stroke:none"
+       d="m 4519.4225,731.13367 17.1726,67.68022 44.4467,-7.07107 -16.1624,-81.82235 z"
+       id="path3987"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\SoldierWalkie.png"
+       inkscape:export-xdpi="98.379997"
+       inkscape:export-ydpi="98.379997" />
+    <path
+       sodipodi:type="spiral"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path3991"
+       sodipodi:cx="4319.4121"
+       sodipodi:cy="743.25549"
+       sodipodi:expansion="1"
+       sodipodi:revolution="3"
+       sodipodi:radius="15.811388"
+       sodipodi:argument="-19.956705"
+       sodipodi:t0="0"
+       d="m 4319.4121,743.25549 c 0.3545,-0.70906 1.1307,0.12808 1.1785,0.58926 0.1295,1.24977 -1.2986,1.93366 -2.357,1.76777 -1.8932,-0.29676 -2.8052,-2.40214 -2.357,-4.12479 0.6577,-2.52807 3.5182,-3.69592 5.8925,-2.94628 3.1647,0.99914 4.5944,4.63837 3.5356,7.66032 -1.3324,3.80281 -5.7605,5.49668 -9.4281,4.12479 -4.442,-1.66153 -6.4013,-6.88359 -4.7141,-11.19585 1.9884,-5.08186 8.0074,-7.30729 12.9637,-5.30331 5.7221,2.31368 8.2142,9.13159 5.8925,14.73139 -2.638,6.36284 -10.2561,9.12185 -16.4991,6.48182 -7.0038,-2.96172 -10.03,-11.38087 -7.0711,-18.26692 3.2849,-7.64483 12.5058,-10.93841 20.0347,-7.66034"
+       transform="translate(225.26402,4.0406099)"
+       inkscape:export-filename="D:\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\SoldierWalkie.png"
+       inkscape:export-xdpi="98.379997"
+       inkscape:export-ydpi="98.379997" />
+    <path
+       style="fill:#939393;fill-opacity:1;stroke:none"
+       d="m 4539.6255,773.56008 3.0305,6.06091 14.1421,-3.03046 -4.0406,-12.12183 z"
+       id="path3993"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\SoldierWalkie.png"
+       inkscape:export-xdpi="98.379997"
+       inkscape:export-ydpi="98.379997" />
+    <path
+       style="fill:#939393;fill-opacity:1;stroke:none"
+       d="m 4541.6459,785.68191 2.0203,6.06091 20.203,-4.04061 -4.0406,-7.07107 z"
+       id="path3995"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\SoldierWalkie.png"
+       inkscape:export-xdpi="98.379997"
+       inkscape:export-ydpi="98.379997" />
+    <path
+       style="fill:#2f2c1b;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 5912.586,370.6579 -14.1422,-226.27417 -20.203,-2.02031 z"
+       id="path3952"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\HillTank.png"
+       inkscape:export-xdpi="53.119999"
+       inkscape:export-ydpi="53.119999" />
+    <path
+       style="fill:#8a8750;fill-opacity:1;stroke:none"
+       d="m 5377.2051,192.87105 c -8.0812,10.10152 -78.7919,82.83251 -78.7919,82.83251 l 232.3351,141.42135 398.0001,36.36549 167.6853,117.1777 10.1015,-44.44671 -96.9746,-137.38075 -349.5128,-212.13203 z"
+       id="path3940"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\HillTank.png"
+       inkscape:export-xdpi="53.119999"
+       inkscape:export-ydpi="53.119999" />
+    <path
+       style="fill:#2f2c1b;fill-opacity:1;stroke:none"
+       d="m 5333.4838,408.4816 c -6.5625,0 -249.3737,-32.34461 -155.8586,70.57007 93.5152,102.91469 447.8883,192.59749 447.8883,192.59749 0,0 101.7182,17.64252 24.6093,-73.51049 -77.1091,-91.15301 -316.639,-189.65707 -316.639,-189.65707 z"
+       id="path3146-1"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\HillTank.png"
+       inkscape:export-xdpi="53.119999"
+       inkscape:export-ydpi="53.119999" />
+    <path
+       style="fill:#69663d;fill-opacity:1;stroke:none"
+       d="m 5266.0883,303.98783 c -4.0406,20.20305 -36.3655,105.05586 -36.3655,105.05586 l 428.3047,222.23356 365.6752,86.87312 105.0559,-62.62946 34.3452,-66.67007 -521.2387,-349.51277 -383.858,64.64976 z"
+       id="path3938"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\HillTank.png"
+       inkscape:export-xdpi="53.119999"
+       inkscape:export-ydpi="53.119999" />
+    <path
+       style="fill:#595634;fill-opacity:1;stroke:none"
+       d="m 5684.2915,349.70591 c -8.0812,0 -307.0864,-52.98115 -191.929,115.59524 115.1574,168.57639 551.5433,315.47868 551.5433,315.47868 0,0 125.2589,28.89881 30.3046,-120.41172 -94.9544,-149.31051 -389.9189,-310.6622 -389.9189,-310.6622 z"
+       id="path3146"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\HillTank.png"
+       inkscape:export-xdpi="53.119999"
+       inkscape:export-ydpi="53.119999" />
+    <path
+       style="fill:#6e6c40;fill-opacity:1;stroke:none"
+       d="m 5516.6062,217.11471 -462.6499,-327.28942 c 0,0 -30.3046,-14.14213 -48.4873,-8.08122 -18.1828,6.06092 -30.3046,42.426408 -22.2234,42.426408 8.0812,0 434.3656,296.984842 434.3656,296.984842 0,0 30.3046,48.48732 54.5483,28.28427 24.2436,-20.20305 44.4467,-32.32488 44.4467,-32.32488 z"
+       id="path3942"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\HillTank.png"
+       inkscape:export-xdpi="53.119999"
+       inkscape:export-ydpi="53.119999" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#282717;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path3944"
+       sodipodi:cx="5474.0166"
+       sodipodi:cy="588.70215"
+       sodipodi:rx="95.964493"
+       sodipodi:ry="112.12693"
+       d="m 5569.9811,588.70215 a 95.964493,112.12693 0 1 1 -191.929,0 95.964493,112.12693 0 1 1 191.929,0 z"
+       transform="matrix(0.80432983,0,-0.14492429,0.90990991,1415.1812,-20.556224)"
+       inkscape:export-filename="D:\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\HillTank.png"
+       inkscape:export-xdpi="53.119999"
+       inkscape:export-ydpi="53.119999" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#282717;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path3946"
+       sodipodi:cx="5669.9863"
+       sodipodi:cy="658.40271"
+       sodipodi:rx="75.761444"
+       sodipodi:ry="74.751289"
+       d="m 5745.7478,658.40271 a 75.761444,74.751289 0 1 1 -151.5229,0 75.761444,74.751289 0 1 1 151.5229,0 z"
+       transform="matrix(0.94905006,-0.31512534,-0.04397468,1.0682867,525.08288,1688.4068)"
+       inkscape:export-filename="D:\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\HillTank.png"
+       inkscape:export-xdpi="53.119999"
+       inkscape:export-ydpi="53.119999" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#282717;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path3948"
+       sodipodi:cx="5798.2754"
+       sodipodi:cy="726.08289"
+       sodipodi:rx="46.467018"
+       sodipodi:ry="59.598999"
+       d="m 5844.7424,726.08289 a 46.467018,59.598999 0 1 1 -92.934,0 46.467018,59.598999 0 1 1 92.934,0 z"
+       transform="matrix(1,0,-0.16949153,1,310.10623,-51.369099)"
+       inkscape:export-filename="D:\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\HillTank.png"
+       inkscape:export-xdpi="53.119999"
+       inkscape:export-ydpi="53.119999" />
+    <path
+       style="fill:#282717;fill-opacity:1;stroke:none"
+       d="m 5670.1494,352.47515 c 0,0 -206.0712,165.66502 -8.0813,264.65996 197.9899,98.99495 -117.1777,-56.56854 -151.5228,-119.198 -34.3452,-62.62945 -50.5077,-103.03555 -44.4468,-125.25891 6.061,-22.22336 66.6701,-30.30458 66.6701,-30.30458 z"
+       id="path3950"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\HillTank.png"
+       inkscape:export-xdpi="53.119999"
+       inkscape:export-ydpi="53.119999" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#2f2c1b;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path3954"
+       sodipodi:cx="4820"
+       sodipodi:cy="-4.7806673"
+       sodipodi:rx="40"
+       sodipodi:ry="34.285713"
+       d="m 4860,-4.7806673 a 40,34.285713 0 1 1 -80,0 40,34.285713 0 1 1 80,0 z"
+       transform="translate(197.14286,-85.714285)"
+       inkscape:export-filename="D:\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\HillTank.png"
+       inkscape:export-xdpi="53.119999"
+       inkscape:export-ydpi="53.119999" />
+  </g>
+</svg>

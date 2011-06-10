@@ -1,0 +1,154 @@
+   body { 
+	font-family: "Downcome", sans-serif;
+	background-color: #d2b86a;
+	-moz-animation-name: skyAnimation;
+	-moz-animation-duration:  3s;
+	}
+	
+  h1 {
+	background-color: #0B1E38;
+	color: #fff;
+	font-family: 'Downcome', sans-serif; 
+	font-size: 128px;
+	text-align: center;
+	position:absolute;
+  }  
+
+    @font-face {
+      font-family: "Downcome";
+      src: url("Fonts\\DOWNCOME.ttf");
+    }
+	
+  #explosion{
+    position: absolute;
+	-moz-animation-duration: 2s;
+	-moz-animation-name: explosions;
+	top: 350px;
+	-moz-transform: scale(10);
+	opacity: 0;
+  }
+    #leftSoldier{
+	  position: absolute;
+	  top: 420px;
+	-moz-animation-duration: 10s;
+    -moz-animation-name: leftSoldierRunGun;
+	-moz-transform: translate(50px);
+  }
+     #abrams{
+	   position: absolute;
+	   top: 300px;
+	-moz-animation-duration: 2s;
+    -moz-animation-name: tankRoll;
+	-moz-transform: translate(300px);
+  }
+  #smalltanks{
+  position: absolute;
+top: 400px;  
+  	-moz-animation-duration: 5s;
+    -moz-animation-name: SmallTanksRoll;
+	-moz-transform: translate(800px);
+  }
+   #smokeFromAirplanes{
+   position:absolute;	
+   top: 360px;
+   left: 175px;
+   opacity: 0;
+	-moz-animation-name: SmokeFromAirplanes;
+	-moz-animation-duration: 3s;
+	
+   }
+     #soldierWalkie{
+    position: absolute;
+	top: 320px;
+  -moz-animation-name: soldierWalkie;
+	-moz-animation-duration: 10s;
+	-moz-transform: translateX(-500px);
+  }
+  #jets{
+    position: absolute;
+	-moz-animation-duration: 4s;
+    -moz-animation-name: jetsFlyOverhead;
+	-moz-transform: translate(1600px, -300px);
+  }
+  #buildings{
+    position: absolute;
+	top: 290px;
+	-moz-animation-name: BackDrop;
+	-moz-animation-duration: 5s;
+	-moz-transform: translate(100px,50px);
+  }
+    #hillTank{
+    position: absolute;
+	top: 0px;
+	-moz-animation-name: hillTankClimb;
+	-moz-animation-duration: 15s;
+	-moz-transform: translate(400px,20px);
+  }
+  #ground{
+    position: absolute;
+	width: 100%;
+	top: 470px;
+    -moz-animation-name: Ground;
+	-moz-animation-duration: 10s;
+  }
+  #tankGround{
+    position: absolute;
+	width: 100%;
+	top: 470px;
+    -moz-animation-name: tankGround;
+	-moz-animation-duration: 10s;
+-moz-transform: translate(-100px,-175px);
+  }
+  @-moz-keyframes skyAnimation{
+	from{ background-color: #BDDBED;}
+	to{background-color:#d2b86a;	}
+  }
+  
+   @-moz-keyframes BackDrop {
+	from{-moz-transform: translateX(0px); opacity:0;}
+	10%{-moz-transform: translateX(0px);opacity:1;}
+	75%{-moz-transform: translateY(10px);opacity:1;}
+	80%{-moz-transform: translate(100px,50px);opacity:1;}
+	to{-moz-transform: translate(100px,50px);opacity:1;}
+  }
+  
+   @-moz-keyframes Ground {
+	from{-moz-transform: translateX(0px); opacity:1;}
+	20%{-moz-transform: translateX(0px);opacity:1;}
+	to{-moz-transform: translateX(0px);opacity:1;}
+  }
+  
+   @-moz-keyframes jetsFlyOverhead {
+	from{-moz-transform: translate(-200px, 600px);}
+	to{-moz-transform: translate(1200px,-800px);}
+  }
+  
+  @-moz-keyframes SmokeFromAirplanes {
+	from{-moz-transform: scale(0); opacity: 0;}
+	5%{-moz-transform: scale(0);opacity: 1;}
+	to{ -moz-transform: translate(360px,-175px); -moz-transform: scale(15);	opacity: 0;}
+  }
+    @-moz-keyframes soldierWalkie {
+	from{-moz-transform: translate(-500px,0px);}
+	30%{-moz-transform: translate(-500px,0px);}
+	40%{-moz-transform: translate(0px,0px);}
+	70%{-moz-transform: translate(0px,0px);}
+	90%{-moz-transform: translate(-500px,0px);}
+	to{ -moz-transform: translate(-500px,0px);}
+  }
+     @-moz-keyframes tankGround{
+	from{-moz-transform: translateX(0px); opacity:0;}
+	30%{-moz-transform: translateY(1000px);opacity:0;}
+	40%{-moz-transform: translate(-100px,-175px);opacity:1;}
+	to{-moz-transform: translate(-100px,-175px);opacity:1;}
+  }
+   @-moz-keyframes hillTankClimb{
+	from{-moz-transform: translateX(0px); opacity:0;}
+		29%{-moz-transform: translate(1500px,2000px);opacity:0;}
+	30%{-moz-transform: translate(1500px,2000px);opacity:1;}
+	50%{-moz-transform: translate(400px,20px);opacity:1;}
+	to{-moz-transform: translate(400px,20px);opacity:1;}
+  }
+  
+  
+  
