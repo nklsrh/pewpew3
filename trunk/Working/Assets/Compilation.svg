@@ -18,6 +18,17 @@
    sodipodi:docname="Compilation.svg">
   <defs
      id="defs4">
+    <linearGradient
+       id="linearGradient4126">
+      <stop
+         style="stop-color:#582929;stop-opacity:1;"
+         offset="0"
+         id="stop4128" />
+      <stop
+         style="stop-color:#d21d1d;stop-opacity:1;"
+         offset="1"
+         id="stop4130" />
+    </linearGradient>
     <pattern
        inkscape:stockid="Sand (bitmap)"
        id="sand_bitmap"
@@ -101,6 +112,15 @@
          id="rect4338"
          style="fill:url(#pattern5795);fill-opacity:1;fill-rule:nonzero;stroke:none" />
     </pattern>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4126"
+       id="linearGradient4141"
+       gradientUnits="userSpaceOnUse"
+       x1="5905.749"
+       y1="-2935.4902"
+       x2="6146.0249"
+       y2="-3038.3474" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -109,9 +129,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.175"
-     inkscape:cx="-2810.1539"
-     inkscape:cy="677.89441"
+     inkscape:zoom="0.12374369"
+     inkscape:cx="-1706.0949"
+     inkscape:cy="822.51846"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -2557,7 +2577,7 @@
        inkscape:export-ydpi="35.869999" />
     <g
        id="g4160-63"
-       inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\Test1\Assets\Tank.png"
+       inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\pewpew\Working\Assets\TankLeft.png"
        inkscape:export-xdpi="27.985357"
        inkscape:export-ydpi="27.985357"
        transform="matrix(0.49845505,0,0,0.46732439,-2874.5485,559.19365)">
@@ -2689,6 +2709,74 @@
        x="-4393.0107"
        y="-2288.7175"
        inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\pewpew\Working\Assets\BottomBar.png"
+       inkscape:export-xdpi="27.985357"
+       inkscape:export-ydpi="27.985357" />
+    <g
+       id="g4134"
+       transform="translate(-256.06143,473.93486)"
+       inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\pewpew\Working\Assets\droppedBomb.png"
+       inkscape:export-xdpi="27.985357"
+       inkscape:export-ydpi="27.985357">
+      <path
+         inkscape:export-ydpi="27.985357"
+         inkscape:export-xdpi="27.985357"
+         inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\pewpew\Working\Assets\Bomb.png"
+         inkscape:connector-curvature="0"
+         id="path3328"
+         d="m 6233.0346,-3052.1286 c 0,0 358.9843,176.5301 416.9593,133.3631 57.9751,-43.167 57.9751,-43.167 57.9751,-43.167 l -89.7218,-181.0147 z"
+         style="fill:#000000;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:export-ydpi="27.985357"
+         inkscape:export-xdpi="27.985357"
+         inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\pewpew\Working\Assets\Bomb.png"
+         sodipodi:nodetypes="ccc"
+         inkscape:connector-curvature="0"
+         id="path3324"
+         d="m 6519.3068,-3048.247 c 4.7624,-276.8413 -616.7969,-234.4655 -618.1268,54.0161 -2.9309,140.9805 239.9811,334.2741 618.1268,-54.0161 z"
+         style="fill:#2d2d2d;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:export-ydpi="27.985357"
+         inkscape:export-xdpi="27.985357"
+         inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\pewpew\Working\Assets\Bomb.png"
+         inkscape:connector-curvature="0"
+         id="path3326"
+         d="m 6202.8372,-3023.2031 c 0,0 48.7375,-368.2171 171.9986,-358.8191 123.2611,9.3979 82.1741,6.2653 82.1741,6.2653 l 88.6207,192.7234 z"
+         style="fill:#181818;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:export-ydpi="27.985357"
+         inkscape:export-xdpi="27.985357"
+         inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\pewpew\Working\Assets\Bomb.png"
+         sodipodi:nodetypes="csccc"
+         inkscape:connector-curvature="0"
+         id="path3328-6"
+         d="m 6194.479,-3016.5947 c 0,0 41.3656,227.9587 128.4343,184.7917 87.0689,-43.167 161.3546,-54.5956 161.3546,-54.5956 l 99.1918,-221.0147 z"
+         style="fill:#1e1e1e;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:export-ydpi="27.985357"
+         inkscape:export-xdpi="27.985357"
+         inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\pewpew\Working\Assets\Bomb.png"
+         sodipodi:nodetypes="cscc"
+         inkscape:connector-curvature="0"
+         id="path4116"
+         d="m 6008.3873,-3161.9942 c 0,0 -34.3451,337.3909 68.6904,335.3706 103.0356,-2.0203 84.8528,4.0406 84.8528,4.0406 -144.4134,-275.3839 41.8149,-467.7905 -153.5432,-339.4112 z"
+         style="fill:url(#linearGradient4141);fill-opacity:1;stroke:none" />
+    </g>
+    <path
+       style="fill:#7a7a7a;fill-opacity:1;stroke:none"
+       d="m -2068.7924,-1372.0039 c 0,0 -347.4925,-137.3808 -48.4873,-371.7362 299.0052,-234.3553 193.9493,-404.061 32.3249,-751.5534 -161.6244,-347.4925 105.0559,-299.0052 161.6244,-371.7362 56.5685,-72.731 155.4042,-1273.7983 177.7869,-800.0408 4.9724,105.2487 193.9492,-630.3352 218.1929,-347.4925 24.2436,282.8428 -32.3249,468.7108 242.4366,921.2592 274.7615,452.5483 444.46708,290.9239 371.73608,525.2793 -72.731,234.3554 -290.92388,379.8173 -331.32998,589.9291 -40.4061,210.1117 121.2183,250.5178 129.2995,323.2488 8.0812,72.7309 -8.0812,250.5178 -129.2995,299.0051 -121.2183,48.4873 40.4061,105.0559 88.8934,153.5432 48.4873,48.4873 169.70558,363.65487 80.8123,290.92397 -369.2286,-302.09627 -1066.7212,-16.1625 -1026.3151,-72.731 40.4061,-56.56857 137.3808,-161.62437 32.3249,-387.89857 z"
+       id="path4143"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csssssssssssssc"
+       inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\pewpew\Working\Assets\mushroomCloud.png"
+       inkscape:export-xdpi="27.985357"
+       inkscape:export-ydpi="27.985357" />
+    <path
+       style="fill:#9c9c9c;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -2327.3914,-2624.5931 c -891.224,72.7852 -1182.4627,-138.0722 -1026.315,-686.9037 177.7868,-501.0356 929.3403,-735.391 929.3403,-735.391 470.134,-171.522 2521.308203,-188.6782 2505.178303,719.2286 6.35369,856.0881 245.873357,1288.3385 -1010.152523,743.4722 -634.19768,-482.9924 -1178.85698,52.75 -1398.05108,-40.4061 z"
+       id="path4145"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc"
+       inkscape:export-filename="C:\Users\Nikhil\Documents\Mozilla Dev Derby\CSS3 Animations\pewpew\Working\Assets\mushroomCloud.png"
        inkscape:export-xdpi="27.985357"
        inkscape:export-ydpi="27.985357" />
   </g>
