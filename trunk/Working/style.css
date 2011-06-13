@@ -6,15 +6,20 @@
 	}
 	
 	#RightBar{
-	position:absolute;
+	position: absolute;
 	top: 0px;
-	left: 1280px;
-	width: 100%;
+	margin-left: 1280px;
+	background-image:url('Assets/RightBar.png');
+	background-repeat:repeat;
+	height: 100%;
+	}  
+  p{
+	margin-left: 10px;
   }
+  
   #BottomBar{
-	position:absolute;
-	top: 600px;
-	width: 100%;	
+	position: absolute;
+	margin-top: 600px;
 	left: 0px;
 	}
 	
@@ -271,18 +276,17 @@
   } 
 
     @-moz-keyframes mushroomCloud {
-	from{}
-	18.999%{}
-	19%{}
-	21%{}
-	25%{}
-	to{}
+	from{opacity: 0;}
+	19%{-moz-transform: translate(100px, -100px) scale(0); opacity: 0;}
+	21%{-moz-transform: translate(100px, -100px) scale(0.6); opacity: 1;}
+	25%{-moz-transform: translate(100px, -100px) scale(1); opacity: 0;}
+	to{opacity: 0;}
   }
     @-moz-keyframes tankLeft {
-	from{}
-	18.999%{}
-	19%{}
-	25%{}
-	25.001%{}
-	to{}
+	from{opacity: 0;}
+	18.999%{-moz-transform: translate(600px, 400px); opacity: 0;}
+	19%{-moz-transform: translate(600px, 400px); opacity:1;}
+	25%{-moz-transform: translate(600px, 400px); opacity:1;}
+	25.001%{-moz-transform: translate(600px, 400px); opacity:0;}
+	to{opacity: 0;}
   }  
