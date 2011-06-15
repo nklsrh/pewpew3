@@ -9,9 +9,10 @@
 	position: absolute;
 	top: 0px;
 	margin-left: 1280px;
-	background-image:url('Assets/RightBar.png');
-	background-repeat:repeat;
-	height: 100%;
+	background-color: #fff;
+	height: 3600px;
+	width: 100%;
+	float: right;
 	}  
   p{
 	margin-left: 10px;
@@ -21,6 +22,9 @@
 	position: absolute;
 	margin-top: 600px;
 	left: 0px;
+	background-color: #fff;
+	width: 100%;
+	height: 3000px;
 	}
 	
   h1 {
@@ -73,6 +77,12 @@
 	-moz-animation-name: mushroomCloud;
 	-moz-animation-duration: 100s;	
    }
+   #blownTankGround{
+       position: absolute;
+	-moz-animation-name: blownTankGround;
+	-moz-animation-duration: 100s;
+   }
+   
      #soldierWalkie{
     position: absolute;
 	-moz-animation-name: soldierWalkie;
@@ -277,16 +287,26 @@
 
     @-moz-keyframes mushroomCloud {
 	from{opacity: 0;}
-	19%{-moz-transform: translate(100px, -100px) scale(0); opacity: 0;}
-	21%{-moz-transform: translate(100px, -100px) scale(0.6); opacity: 1;}
-	25%{-moz-transform: translate(100px, -100px) scale(1); opacity: 0;}
+	19%{-moz-transform: translate(120px, -100px) scale(0); opacity: 0;}
+	21%{-moz-transform: translate(120px, -300px) scale(0.6); opacity: 1;}
+	25%{-moz-transform: translate(120px, -500px) scale(1); opacity: 0;}
 	to{opacity: 0;}
-  }
+	}
+  
     @-moz-keyframes tankLeft {
 	from{opacity: 0;}
-	18.999%{-moz-transform: translate(600px, 400px); opacity: 0;}
-	19%{-moz-transform: translate(600px, 400px); opacity:1;}
-	25%{-moz-transform: translate(600px, 400px); opacity:1;}
-	25.001%{-moz-transform: translate(600px, 400px); opacity:0;}
+	18.999%{-moz-transform: translate(560px, 400px); opacity: 0;}
+	19%{-moz-transform: translate(560px, 400px); opacity:1;}
+	25%{-moz-transform: translate(560px, 400px); opacity:1;}
+	25.001%{-moz-transform: translate(560px, 400px); opacity:0;}
 	to{opacity: 0;}
-  }  
+	}  
+  
+	@-moz-keyframes blownTankGround{
+	from{opacity:0;}
+	18.999%{-moz-transform: translate(20px, 450px); opacity: 0;}
+	19%{-moz-transform: translate(20px, 450px); opacity:1;}
+	25%{-moz-transform: translate(20px, 450px); opacity:1;}
+	25.001%{-moz-transform: translate(20px, 450px); opacity:0;}
+	to{opacity: 0;}
+	}
