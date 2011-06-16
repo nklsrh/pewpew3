@@ -1,0 +1,157 @@
+    @font-face {
+      font-family: "Downcome";
+      src: url("Fonts\\DOWNCOME.ttf");
+    }
+	
+	body { 
+	font-family: "Downcome", sans-serif;
+	background-color: #d2b86a;
+	-moz-animation-name: skyAnimation;
+	-moz-animation-duration:  100s;
+	}
+	h1 {
+	background-color: #0B1E38;
+	color: #fff;
+	font-family: 'Downcome', sans-serif; 
+	font-size: 128px;
+	text-align: center;
+	position:absolute;
+	}    
+	p{
+	}  
+	
+	/*OBJECTS*/
+	
+	#BottomBar{
+	background-color: #dedede;
+	width: 100%;
+	height: 1000px;
+	}
+	#LeftBar{
+	width: 72px;
+	background-color: #dedede;
+	height: 1000px;
+	}
+	#RightBar{
+	float: right;
+	width: 72px;
+	background-color: #fff;
+	height: 1000px;
+	}
+	
+	#hillTankExplosion{
+    position: absolute;
+	-moz-animation-duration: 100s;
+	-moz-animation-name: hillTankExplosion;
+	-moz-transform: translate(500px,20px);
+	opacity:0;
+  }
+     #abrams{
+	position: absolute;
+	top: 300px;
+	-moz-animation-duration: 100s;
+    -moz-animation-name: tankRoll;
+	-moz-transform: translate(300px);
+  }
+   #smokeFromAirplanes{
+	position:absolute;	
+	top: 360px;
+	left: 175px;
+	opacity: 0;
+	-moz-animation-name: SmokeFromAirplanes;
+	-moz-animation-duration: 100s;	
+   }
+   #smokeFromHillTank{
+    position:absolute;	
+	opacity: 0;
+	-moz-animation-name: smokeFromHillTank;
+	-moz-animation-duration: 100s;	
+	-moz-transform: translate(-100px,20px);	
+   }
+     #mushroomCloud{
+    position:absolute;	
+	opacity: 0;
+	-moz-animation-name: mushroomCloud;
+	-moz-animation-duration: 100s;	
+   }
+   #blownTankGround{
+       position: absolute;
+	-moz-animation-name: blownTankGround;
+	-moz-animation-duration: 100s;
+   }
+   
+     #soldierWalkie{
+    position: absolute;
+	-moz-animation-name: soldierWalkie;
+	-moz-animation-duration: 100s;
+	-moz-transform: translateX(-500px);
+  }
+  
+  #soldierWalkieRun{
+      position: absolute;
+	-moz-animation-name: soldierWalkieRun;
+	-moz-animation-duration: 100s;
+  }
+  #jets{
+    position: absolute;
+	-moz-animation-duration: 100s;
+    -moz-animation-name: jetsFlyOverhead;
+	-moz-transform: translate(1600px, -300px);
+  }
+
+  #fighteroverhead{
+      position: absolute;
+	-moz-animation-duration: 100s;
+    -moz-animation-name: fighterOverhead;
+  }
+    #droppedBomb{
+      position: absolute;
+	-moz-animation-duration: 100s;
+    -moz-animation-name: droppedBomb;
+  }
+   #tankLeft{
+    position: absolute;
+	-moz-animation-name: tankLeft;
+	-moz-animation-duration: 100s;
+  }
+  
+  #buildings{
+    position: absolute;
+	top: 290px;
+	-moz-animation-name: BackDrop;
+	-moz-animation-duration: 100s;
+	-moz-transform: translate(100px,50px);
+  }
+    #hillTank{
+    position: absolute;
+	top: 0px;
+	-moz-animation-name: hillTankClimb;
+	-moz-animation-duration: 100s;
+	-moz-transform: translate(400px,20px);
+  }
+  #ground{
+    position: absolute;
+	width: 100%;
+	top: 470px;
+    -moz-animation-name: Ground;
+	-moz-animation-duration: 100s;
+  }
+  #cityTopView{
+    position: absolute;
+    -moz-animation-name: cityTopView;
+	-moz-animation-duration: 100s;
+  }
+  #tankGround{
+    position: absolute;
+	width: 100%;
+	top: 470px;
+    -moz-animation-name: tankGround;
+	-moz-animation-duration: 100s;
+	-moz-transform: translate(-100px,-175px);
+  }
+  #runningGround{
+    position: absolute;
+    -moz-animation-name: runningGround;
+	-moz-animation-duration: 100s;
+  }
+  

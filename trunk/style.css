@@ -1,6 +1,7 @@
    body { 
 	font-family: "Downcome", sans-serif;
 	background-color: #d2b86a;
+	top: 120px;
 	-moz-animation-name: skyAnimation;
 	-moz-animation-duration:  100s;
 	}
@@ -41,7 +42,8 @@
       src: url("Fonts\\DOWNCOME.ttf");
     }
  
-    
+/* OBJECTS ----------------------------------------------*/
+
   #hillTankExplosion{
     position: absolute;
 	-moz-animation-duration: 100s;
@@ -112,12 +114,21 @@
 	-moz-animation-duration: 100s;
     -moz-animation-name: droppedBomb;
   }
+  #smokeFromTankBlast{
+    position: absolute;
+	-moz-animation-duration: 100s;
+    -moz-animation-name: smokeFromTankBlast;
+  }
    #tankLeft{
     position: absolute;
 	-moz-animation-name: tankLeft;
 	-moz-animation-duration: 100s;
   }
-  
+  #tankFade{
+    position: absolute;
+	-moz-animation-name: tankFade;
+	-moz-animation-duration: 100s;
+  }
   #buildings{
     position: absolute;
 	top: 290px;
@@ -157,6 +168,13 @@
     -moz-animation-name: runningGround;
 	-moz-animation-duration: 100s;
   }
+  #runningBackdrop{
+    position: absolute;
+    -moz-animation-name: runningBackdrop;
+	-moz-animation-duration: 100s;
+  }
+  
+  /* ANIMATIONS ----------------------------------------------*/
   
   @-moz-keyframes skyAnimation{
 	from{ background-color: #BDDBED;}
@@ -167,8 +185,8 @@
    @-moz-keyframes BackDrop {
 	from{-moz-transform: translateX(0px); opacity:0;}
 	2%{-moz-transform: translateX(0px);opacity:1;}
-	3%{-moz-transform: translateY(10px);opacity:1;}
-	5%{-moz-transform: translate(100px,50px);opacity:1;}
+	3.75%{-moz-transform: translateX(0px);opacity:1;}
+	4%{-moz-transform: translate(100px,50px);opacity:1;}
 	13%{-moz-transform: translate(100px,50px);opacity:1;}
 	13.99%{-moz-transform: translate(100px,50px);opacity:1;}
 	14%{-moz-transform: translate(100px,50px);opacity:0;}
@@ -178,8 +196,8 @@
   
    @-moz-keyframes Ground {
 	from{-moz-transform: translateX(0px); opacity:1;}
-	13.99%{-moz-transform: translateX(0px);opacity:1;}
-	14%{-moz-transform: translateX(0px);opacity:0;}
+	11.99%{-moz-transform: translateX(0px);opacity:1;}
+	12%{-moz-transform: translateX(0px);opacity:0;}
 	20%{-moz-transform: translateX(0px);opacity:0;}
 	to{-moz-transform: translateX(0px);opacity:0;}
   }
@@ -217,19 +235,29 @@
   @-moz-keyframes runningGround{
 	from{-moz-transform: translate(0px, 470px); opacity:0;}
 	12%{-moz-transform: translate(0px, 470px);opacity:0;}
-	12.01%{-moz-transform: translate(0px, 470px);opacity:1;}
-	13.99%{-moz-transform: translate(0px,470px);opacity:0;}
-	14%{-moz-transform: translate(-500px,470px);opacity:0;}
+	12.01%{-moz-transform: translate(-800px, 470px);opacity:1;}
+	14.24%{-moz-transform: translate(-200px,470px);opacity:1;}
+	14.25%{-moz-transform: translate(-500px,470px);opacity:0;}
 	25%{-moz-transform: translate(-500px,470px);opacity:0;}
 	to{-moz-transform: translate(-500px, 470px);opacity:0;}
   }
   
+    @-moz-keyframes runningBackdrop{
+  	from{-moz-transform: translate(0px, -590px); opacity:0;}
+	12%{-moz-transform: translate(0px, 0px);opacity:0;}
+	12.01%{-moz-transform: translate(-800px, -590px);opacity:1;}
+	14.24%{-moz-transform: translate(-300px, -590px);opacity:1;}
+	14.25%{-moz-transform: translate(-500px,0px);opacity:0;}
+	25%{-moz-transform: translate(-500px,0px);opacity:0;}
+	to{-moz-transform: translate(-500px, 0px);opacity:0;}
+	}
+	
      @-moz-keyframes tankGround{
 	from{-moz-transform: translateY(1000px); opacity:0;}
 	3%{-moz-transform: translateY(1000px);opacity:1;}
 	5%{-moz-transform: translate(-100px,-175px);opacity:1;}
-	13.99%{-moz-transform: translate(-100px,-175px);opacity:1;}
-	14%{-moz-transform: translate(-100px,-175px);opacity:0;}
+	11.99%{-moz-transform: translate(-100px,-175px);opacity:1;}
+	12%{-moz-transform: translate(-100px,-175px);opacity:0;}
 	to{-moz-transform: translate(-100px,-175px);opacity:0;}
   }
   
@@ -237,25 +265,26 @@
 	from{-moz-transform: translateX(0px); opacity:0;}
 	3%{-moz-transform: translate(1500px,2000px);opacity:0;}
 	4%{-moz-transform: translate(1500px,2000px);opacity:1;}
-	9%{-moz-transform: translate(400px,20px);opacity:1;}
-	10%{-moz-transform: translate(460px,80px);opacity:1;}
 	11%{-moz-transform: translate(400px,20px);opacity:1;}
 	11.1%{-moz-transform: translate(400px,20px);opacity:0;}
 	to{-moz-transform: translate(400px,20px);opacity:0;}
   }
-      @-moz-keyframes hillTankExplosion{
-	from{-moz-transform: translate(400px,20px)scale:(0);opacity:0; }
-	9%{-moz-transform: translate(400px,20px)scale(0);opacity:0; }
-	9.1%{-moz-transform: translate(400px,20px)scale(0);opacity:1;}
-	10.4%{-moz-transform: translate(400px,20px)scale(16);opacity:0;}
-	to{-moz-transform: translate(400px,20px)scale(20);opacity:0;}
-  }
+
     @-moz-keyframes  smokeFromHillTank {
 	from{opacity:0;}
-	9%{opacity:0;-moz-transform:translateX(20px) scale(0);}
-	9.1%{opacity:0;-moz-transform:translateX(20px) scale(0);}
-	12%{-moz-transform: translateX(200px) scale(20); opacity:1; }12.1%{opacity:0; }
+	10%{opacity:0;-moz-transform:translateX(2000px) scale(0);}
+	10.1%{opacity:0;-moz-transform:translateX(2000px) scale(0);}
+	12%{-moz-transform: translateX(200px) scale(20); opacity:1; }
+	14%{opacity:0; }
 	to{opacity:0;-moz-transform: scale(20);}
+  }
+  @-moz-keyframes tankFade{
+  	from{opacity:0;}
+	9%{opacity:0;-moz-transform:translate(1660px, -270px) scale(1);}
+	9.01%{opacity:1;-moz-transform:translate(1260px, -270px) scale(1);}
+	12%{opacity:1;-moz-transform:translate(-1280px, -270px) scale(1);}
+	12.01%{-moz-transform: translate(-2000px, -2000px) scale(0); opacity:0;}
+	to{opacity:0;-moz-transform: scale(0);}
   }
   
    @-moz-keyframes fighterOverhead {
@@ -278,33 +307,45 @@
   
      @-moz-keyframes droppedBomb {
 	from{opacity:0;}
-	16%{-moz-transform: translate(690px, 300px) scale(1); opacity: 0;}
-	16.001%{-moz-transform: translate(690px, 300px) scale(1); opacity: 1;}
-	19%{-moz-transform: translate(690px, 300px) scale(0.2); opacity: 1;}
-	19.001%{-moz-transform: scale(0); opacity: 0;}
+	16%{-moz-transform: translate(600px, 300px) scale(1); opacity: 0;}
+	16.001%{-moz-transform: translate(600px, 300px) scale(1); opacity: 1;}
+	19%{-moz-transform: translate(570px, 400px) scale(0.05); opacity: 1;}
+	19.01%{-moz-transform: scale(0); opacity: 0;}
 	to{opacity:0;}
   } 
 
     @-moz-keyframes mushroomCloud {
 	from{opacity: 0;}
 	19%{-moz-transform: translate(120px, -100px) scale(0); opacity: 0;}
-	21%{-moz-transform: translate(120px, -300px) scale(0.6); opacity: 1;}
-	25%{-moz-transform: translate(120px, -500px) scale(1); opacity: 0;}
+	19.87%{-moz-transform: translate(120px, -300px) scale(0.6); opacity: 1;}
+	20.5%{-moz-transform: translate(120px, -500px) scale(1); opacity: 0;}
+	20.51%{-moz-transform: translate(-120px, -500px) scale(0); opacity: 0;}
 	to{opacity: 0;}
 	}
-  
+	
+      @-moz-keyframes smokeFromTankBlast {
+	from{opacity: 0;}
+	20%{-moz-transform: translate(600px, 300px) scale(1); opacity: 0;}
+	21%{-moz-transform: translate(600px, 300px) scale(15); opacity: 1;}
+	21.5%{-moz-transform: translate(600px, 300px) scale(20); opacity: 0;}
+	to{opacity: 0;}
+	}
+	
     @-moz-keyframes tankLeft {
 	from{opacity: 0;}
-	18.999%{-moz-transform: translate(560px, 400px); opacity: 0;}
-	19%{-moz-transform: translate(560px, 400px); opacity:1;}
-	25%{-moz-transform: translate(560px, 400px); opacity:1;}
-	25.001%{-moz-transform: translate(560px, 400px); opacity:0;}
+	18%{-moz-transform: translate(500px, 800px); opacity:0;}
+	18.01%{-moz-transform: translate(500px, 800px); opacity:1;}
+	19%{-moz-transform: translate(490px, 400px); opacity:1;}
+	19.5%{-moz-transform: translate(490px, 400px); opacity:1;}
+	19.87%{-moz-transform: translate(490px, 400px); opacity:0.6;}
+	20.5%{-moz-transform: translate(490px, 400px); opacity:0;}
 	to{opacity: 0;}
 	}  
   
 	@-moz-keyframes blownTankGround{
 	from{opacity:0;}
-	18.999%{-moz-transform: translate(20px, 450px); opacity: 0;}
+	18%{-moz-transform: translate(20px, 800px); opacity:0;}
+	18.01%{-moz-transform: translate(20px, 800px); opacity:1;}
 	19%{-moz-transform: translate(20px, 450px); opacity:1;}
 	25%{-moz-transform: translate(20px, 450px); opacity:1;}
 	25.001%{-moz-transform: translate(20px, 450px); opacity:0;}
