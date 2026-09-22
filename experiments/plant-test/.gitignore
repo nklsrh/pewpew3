@@ -1,0 +1,6 @@
+# Run outputs - regenerate with run.py / readpack.py. Never commit these:
+# a readpack from a test run looks exactly like a readpack from a real one.
+results.json
+readpack.md
+readpack-key.md
+__pycache__/
