@@ -161,6 +161,45 @@ design in one table.
 
 That's one job. The next section is what twelve of them have to add up to.
 
+### Pacing: information must be taken, not given
+
+The genre is pulp adventure. The moment plot starts arriving by telephone, it stops being
+one.
+
+**The revelation budget: two talk beats, maximum, then something physical.** This is the
+stakes clock's opposite number and it is needed just as badly — a run of reveals feels
+productive while you write it and reads as a radio drama.
+
+The deeper rule, and the one that actually fixes it:
+
+> **Every piece of plot should cost something physical to obtain.**
+
+Compare what the same information costs in each mode:
+
+| Free (weak) | Taken (strong) |
+|---|---|
+| A crew member explains the convoy on the phone | You dive sixty feet onto the wreck and read it off a locker |
+| A fence names the buyer | You break into his shop and find the ledger yourself |
+| The case is opened in a car park | The case is opened while someone is kicking the door in |
+
+Both deliver the same fact. Only one is a game. **Information handed over is exposition;
+information taken is a scene** — and it carries its own consequences, because taking things
+goes wrong, and things going wrong is Pillar I.
+
+Practical tests when a beat is being written:
+
+- **What does the player physically do to learn this?** No answer means it's a phone call.
+- **Can this reveal happen *during* an action beat** rather than after it? Learning who
+  betrayed you while climbing out of a window is better than being told over coffee.
+- **Does the action change the plot, or just decorate it?** The best beats in playtest all
+  *generated* story: a rafter collapsed and burned the objective, a kicked winch dropped an
+  engine and wrecked the escape, a friend drove off and cost the crew its wheels. None of
+  that was planned narrative. It was physics with consequences.
+
+**Playtest note.** This section exists because four reveal scenes ran back to back — all of
+them well written, all of them delivered by people talking — and the player disengaged. The
+fix was not shorter dialogue. It was that nobody had to *do* anything to learn any of it.
+
 ---
 
 ## 4. The season arc
