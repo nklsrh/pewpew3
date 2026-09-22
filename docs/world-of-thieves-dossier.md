@@ -529,6 +529,46 @@ Style rules, non-negotiable:
   played the scene for the player.
 - Three options, always. One safe, one aggressive, one greedy/lateral.
 
+### The release valve
+
+The genre's signature isn't the action, it's the **shrug after the action**. Nate Drake gets
+thrown through a window and complains about his back. That tonal snap — violence, then
+something absurdly ordinary — is most of what separates this from a thriller.
+
+What worked in playtest:
+
+> Then the deck lights come back on and a Spanish deckhand is standing at the stairwell with
+> his hand on the breaker, looking at you, at the man on the floor, at the case on the roof.
+>
+> You give him three hundred euros. He gives you a cigarette. Nobody says anything about it.
+
+Note what that is and isn't. **Nobody made a joke.** No one was witty. The comedy is that an
+ordinary person with a job wandered into a thriller and resolved it commercially.
+
+Five sources, ranked by how well they hold up:
+
+1. **The bystander who doesn't care.** A deckhand, a waiter, a border guard who wants the
+   form filled in properly. The world has other people in it and they are unimpressed.
+2. **Physical indignity.** Landing badly. Bleeding and not knowing where from. Being dragged
+   by the wrong arm.
+3. **Competence failure.** Rook changing gear with his knee. Not a gag — a man genuinely
+   struggling with a steering wheel and a broken collarbone.
+4. **The mundane intruding.** Exact change. A phone at 2%. A shutter that needs two hands.
+5. **The complainer.** Mac. Use sparingly; it's the easiest and it wears out fastest.
+
+**Slapstick over quips.** A quip is a joke the character is making; an indignity is something
+happening *to* them, and it survives repetition where wit doesn't. A crew that is funny
+on purpose gets tiring in an hour.
+
+Placement rules:
+
+- **On the descent from an action beat**, or the climb into one. Never at the emotional peak
+  — it deflates what you just spent.
+- **Never on top of a real loss.** Nothing funny in the four beats after a friend drives away.
+- **Three sentences, maximum.** It's a breath, not a scene.
+- **Understate it and move on.** *"Nobody says anything about it"* is the whole technique.
+  The moment the prose acknowledges the joke, it dies.
+
 Before (too much):
 > You vault the railing and clamp your gloved hands onto the severed winch cable. Friction
 > screams through your palms as you slide down in a shower of sparks…
