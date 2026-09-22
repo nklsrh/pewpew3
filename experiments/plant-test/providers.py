@@ -5,15 +5,22 @@ call is throttled and the runner checkpoints after each one.
 """
 import json
 import os
+import random
 import time
 import urllib.error
 import urllib.request
 
+
+class RateLimited(RuntimeError):
+    """Provider refused with 429 after every retry."""
+
 PROVIDERS = {
     # Anonymous, no key, no signup. 2 requests/min per IP per model.
+    # The published limit is 2 RPM per IP, but the anonymous pool is shared and
+    # contended - 1 RPM is what actually survives a long run.
     "ovh": dict(
         url="https://oai.endpoints.kepler.ai.cloud.ovh.net/v1/chat/completions",
-        model="gpt-oss-120b", rpm=2, key_env=None,
+        model="gpt-oss-120b", rpm=1, key_env=None,
     ),
     # Anonymous, no key. 10 RPM but only 60 requests/hour - fine for a partial run.
     "llm7": dict(
@@ -40,9 +47,24 @@ def _throttle(name: str):
     _last_call[name] = time.time()
 
 
+def set_rpm(name: str, rpm: float):
+    PROVIDERS[name]["rpm"] = rpm
+
+
+def _retry_after(e) -> float | None:
+    """Honour the provider's own backoff instruction when it sends one."""
+    v = e.headers.get("Retry-After") if e.headers else None
+    if not v:
+        return None
+    try:
+        return float(v)
+    except ValueError:
+        return None          # HTTP-date form; fall back to our own schedule
+
+
 def call(name: str, system: str, prompt: str, max_tokens: int = 2000,
-         temperature: float = 1.0, attempts: int = 4) -> str:
-    """One completion. Raises RuntimeError if every attempt fails."""
+         temperature: float = 1.0, attempts: int = 6) -> str:
+    """One completion. Raises RateLimited on 429, RuntimeError otherwise."""
     p = PROVIDERS[name]
     headers = {"Content-Type": "application/json"}
     if p["key_env"]:
@@ -59,7 +81,7 @@ def call(name: str, system: str, prompt: str, max_tokens: int = 2000,
         "temperature": temperature,
     }).encode()
 
-    last = None
+    last, hit_429 = None, False
     for i in range(attempts):
         _throttle(name)
         try:
@@ -70,7 +92,15 @@ def call(name: str, system: str, prompt: str, max_tokens: int = 2000,
         except urllib.error.HTTPError as e:
             last = f"HTTP {e.code}: {e.read()[:200].decode('utf8', 'replace')}"
             if e.code in (429, 500, 502, 503, 529):
-                time.sleep(min(60, 5 * 2 ** i))       # backoff on transient
+                hit_429 |= e.code == 429
+                # 15s, 30s, 60s, 120s, 240s (capped 300) + jitter, or whatever
+                # the provider asked for. A contended free pool needs minutes.
+                wait = _retry_after(e) or min(300, 15 * 2 ** i)
+                wait += random.uniform(0, 0.3 * wait)
+                if i < attempts - 1:
+                    print(f"    {name} {e.code}, waiting {wait:.0f}s "
+                          f"(attempt {i+2}/{attempts})", flush=True)
+                    time.sleep(wait)
                 continue
             if e.code in (403, 407):
                 raise RuntimeError(
@@ -79,8 +109,10 @@ def call(name: str, system: str, prompt: str, max_tokens: int = 2000,
             raise RuntimeError(f"{name}: {last}") from None
         except Exception as e:                         # timeouts, resets, bad JSON
             last = repr(e)
-            time.sleep(min(60, 5 * 2 ** i))
-    raise RuntimeError(f"{name}: gave up after {attempts} attempts. Last: {last}")
+            if i < attempts - 1:
+                time.sleep(min(120, 10 * 2 ** i))
+    msg = f"{name}: gave up after {attempts} attempts. Last: {last}"
+    raise (RateLimited if hit_429 else RuntimeError)(msg)
 
 
 def extract_json(text: str) -> dict:

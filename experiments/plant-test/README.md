@@ -27,10 +27,35 @@ scene, not the run. Re-running skips finished work.
 
 | `--provider` | Model | Key | Full run |
 |---|---|---|---|
-| `ovh` (default) | `gpt-oss-120b` | none | ~35 min |
-| `llm7` | `gpt-oss:20b` | none | ~7 min, but a 60/hour cap means it needs two sittings |
-| `groq` | `gpt-oss-120b` | free `GROQ_API_KEY` | ~2 min |
+| `ovh` (default) | `gpt-oss-120b` | none | ~70 min at 1 RPM |
+| `llm7` | `gpt-oss:20b` | none | ~7 min, but a 60/hour cap means two sittings |
+| `groq` | `gpt-oss-120b` | free key | ~2 min - **the reliable one** |
 | `anthropic` | `claude-opus-5` | `ANTHROPIC_API_KEY` | ~$2-3 |
+
+Output goes to `results-<provider>.json`, so two providers can run side by side
+without overwriting each other. Pass the file to the other scripts:
+
+```bash
+python report.py results-ovh.json
+python readpack.py results-llm7.json
+```
+
+### When the free pool is saturated
+
+The anonymous tiers are shared, so a 429 on the very first call means somebody else
+is using the pool - not that you tripped a limit. The runner honours `Retry-After`,
+backs off 15s -> 300s with jitter, and gives up on a scene rather than the run. Three
+rate-limited scenes in a row stops it cleanly with everything saved.
+
+If OVH keeps refusing:
+
+```bash
+python run.py --provider ovh --rpm 0.5     # slower, more patient
+python run.py --provider groq              # free key, 30 RPM, same gpt-oss-120b
+```
+
+`groq` needs a free key from console.groq.com but runs the **same model** as OVH, so
+it is the same experiment - just one that finishes in two minutes instead of stalling.
 
 **This will not run from a restricted network.** Both anonymous hosts are blocked
 by egress policy in some sandboxes (403 on CONNECT). Run it from your own machine.
