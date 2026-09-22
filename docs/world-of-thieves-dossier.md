@@ -194,6 +194,22 @@ ACT I — SET UP                    ACT II — TURN              ACT III — CON
   ── no new threads may open after ep 9. Act III only closes them. ──
 ```
 
+**Escalation budget.** The fixed slots assume escalation arrives on schedule. Emergent play
+does not respect that — the Score can drive a finale-grade event into Act I, and then Act II
+has nothing left to spend. In playtest, a crew member walked out at episode 4 because trust
+hit the floor honestly; that is a midpoint beat at minimum.
+
+Two ways to handle it, and only one of them is right:
+
+| | What it does | Verdict |
+|---|---|---|
+| **Rate-limit escalation** | Cap how far the meters may move before their scheduled beat. | **No.** The meters stop meaning what they say, and Pillar V only works because they bite. |
+| **Re-baseline** | Promote the emergent event into the slot it earned, and raise everything after it. | **Yes.** Harder to write, keeps the player's momentum, keeps the meters honest. |
+
+So the rule is: **the spine's beats are positions, not contents.** If the player's own play
+fills the midpoint slot early, the midpoint is now whatever tops it — and the scheduler's job
+is to find that, not to hold the player back to protect a plan.
+
 Four **fixed beat slots** — premiere, Mark reveal, midpoint, finale. The other eight episodes
 are variable and chosen at runtime (§4.4). The fixed slots are what guarantee convergence;
 without them you have a soap opera that never ends.
@@ -207,6 +223,19 @@ Every season poses exactly one question in episode 1 and answers it in episode 1
 The question must be (a) answerable with a person, (b) something the crew can be hurt by,
 and (c) phrased so the player can say it out loud after two episodes. If the player can't
 state the season question, the season has failed regardless of how good the jobs were.
+
+**A reveal has to do three things**, and a reveal that only does the third is trivia:
+
+1. **Cost** — it takes something away, or makes something the player already did wrong.
+2. **Lock** — after it, walking away is not available. A villain the player can simply
+   decline is not a Mark, it's a news item.
+3. **Recontextualise** — an earlier scene now means something different.
+
+The test for #2 is blunt: *what happens if the player shrugs and goes to Lisbon instead?*
+If the answer is "nothing much", the reveal has failed regardless of how clever it is.
+Distance is what kills it — a faceless institution the player met once, offscreen, six weeks
+ago has no grip. **The Mark must already be inside the player's life**: their money, their
+fence, their routes, their people.
 
 **The Mark** is the answer wearing a face — the season's antagonist. Unlike Rook, the Mark
 is not a rival thief; they're the power that's been *using* the crew. They get named in
