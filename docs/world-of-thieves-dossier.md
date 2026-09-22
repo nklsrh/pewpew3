@@ -393,7 +393,27 @@ failure state.
 >
 > `1. Say nothing.   2. "Stop the van."   3. "What's in the case, Tess?"`
 
-### 6.2 Undisclosed stakes — the mystery box
+### 6.2 Cold push and hot moment
+
+Silence is not always a valid move, and the game has to say which kind of scene the player
+is in — without a rule they have to remember.
+
+| | **Cold push** | **Hot moment** |
+|---|---|---|
+| The scene | A dilemma. A friend who is competent and probably right. | A standoff. Two seconds and a live clock. |
+| Doing nothing | **Works.** They're good at this; letting them lead is a real strategy. | **The worst branch.** The clock resolving alone is a loss, not a neutral. |
+| What it costs | Relational and identity-level. Never tactical. | Everything on the table. |
+| Example | The van pulls north. You say nothing. You reach Casablanca — and earn `Tess: knows you'll fold`. | Tess raises the pistol. Three verbs, no time. |
+
+**The legibility rule: the option list is the cue.** A passive option on the menu means
+silence is survivable. No passive option means the scene resolves badly without you. The
+player never has to be told which mode they're in — they read it off the verbs.
+
+This is what keeps Pillar V from becoming railroading (risk #10). A cold push is a genuine
+invitation to let someone else be right, and a player who takes it is playing well, not
+failing. A hot moment simply removes the option rather than punishing it.
+
+### 6.3 Undisclosed stakes — the mystery box
 
 Every crew member is on the job for a private reason. It surfaces under pressure and never
 all at once.
@@ -410,7 +430,7 @@ The leak is a correction, a flat delivery, a stop that lands louder than the ans
 > Beat.
 > **Tess:** "*We* need what's in it."
 
-### 6.3 Trust, and the cost of silence
+### 6.4 Trust, and the cost of silence
 
 Silence is a choice, and the Score records it — not as a number to optimise, but as
 something the crew acts on later:
@@ -429,7 +449,7 @@ Trust has a mechanical floor and ceiling:
 
 A crew that stops asking is how a Major Loss arrives without an enemy in the room.
 
-### 6.4 The three-way tension
+### 6.5 The three-way tension
 
 Every good decision point pulls in three directions at once — and a scene that only has one
 or two of these is a scene worth rewriting:
