@@ -237,6 +237,36 @@ Distance is what kills it — a faceless institution the player met once, offscr
 ago has no grip. **The Mark must already be inside the player's life**: their money, their
 fence, their routes, their people.
 
+**Casting the Mark: warmth is the currency.** A betrayal is a *withdrawal*, and the player
+can only lose what they were given. A Mark the player has never liked is a name on a page,
+however tightly the plot fits. Distance kills a reveal (above) — but so does a stranger
+introduced warmly in the same scene that unmasks them. The affection has to have been
+banked in Act I, in scenes with no suspicion in them at all.
+
+This is the plant problem (§4.3) in its hardest form. A plant is one detail; a Mark is
+**screen time and affection accumulated across episodes**, and it cannot be retrofitted.
+
+It resolves the same way, and the resolution is the important part:
+
+> **Act I casts a warm bench — two or three recurring NPCs who are generous, funny, and
+> genuinely useful. The scheduler picks the Mark from that bench, late.**
+
+Late binding survives, because what is bound late is the *selection*, not the seeding. The
+candidates must all be planted early and played straight. Whoever isn't chosen becomes an
+ally, a victim, or the person who warns you — so none of the investment is wasted.
+
+Rules for the bench:
+
+- **Played entirely straight.** No hints, no shadow across the face, no ominous line. A
+  candidate who reads as suspicious in Act I is spent.
+- **Give, don't take.** They do the player favours. Generosity is what the reveal cashes in.
+- **At least one scene each where they're simply likeable** and the plot isn't moving.
+- **Three candidates minimum**, or the player will guess by elimination.
+
+A cold-open flashback can bank *some* credit retroactively, and it's a legitimate move — TV
+does it constantly. It is strictly worse than having lived it, and it should be the recovery
+path rather than the plan.
+
 **The Mark** is the answer wearing a face — the season's antagonist. Unlike Rook, the Mark
 is not a rival thief; they're the power that's been *using* the crew. They get named in
 episode 4 and appear in person no more than three times all season. Scarcity is what makes
