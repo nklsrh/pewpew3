@@ -561,6 +561,38 @@ not a concession to it. Slapstick and indignity are the *more durable* of the tw
 they survive repetition where relentless wit doesn't, so lean on them when a run needs
 lightness. But a Nate who never quips isn't restrained, he's a different character.
 
+### The tone governor
+
+Levity isn't a rate, it's a *response to tension* — and both failure modes showed up in one
+playtest, twenty minutes apart. Eight grim beats, then a corrective scene with five jokes in
+it at a table where the player was being threatened. Direction wasn't the problem. The
+absence of a governor was.
+
+Track one value per scene — **tension** — and let it set the levity budget:
+
+| Tension | The scene | Levity allowed |
+|---|---|---|
+| **5** | Someone may die in the next ten seconds | **None.** At most one dry word, from a character, never the narrator |
+| **4** | Active danger — a fight, a chase, a threat in the room | One, physical only. An indignity, not a joke |
+| **3** | Pressure without violence — a negotiation, an infiltration | One, and best from a bystander or a complainer |
+| **2** | Travel, regroup, planning | Two. **This is where quips live** |
+| **1** | Aftermath, the settlement | Banter is the point of the scene |
+
+Two hard guards, one at each end:
+
+- **Ceiling — one levity beat per scene at tension 3 or above.** Not three, not five. More
+  than one and the threat stops being a threat, which costs the scene the thing it was for.
+- **Floor — four consecutive beats with no lightness means drift**, whatever the plot is
+  doing. Force one at the next tension drop.
+
+And a craft test that catches the rest: **does the joke cost or reveal anything?** Treading
+in a stranger's paella is decoration. A rival complaining about the arm you just dragged him
+by is characterisation, consequence and a laugh in one line. Decoration is what makes a scene
+feel jokey; the same number of *load-bearing* beats doesn't.
+
+The diagnostic from playtest: the levity wasn't bad writing, it was **tension-2 material
+deployed in a tension-4 scene.** Right tool, wrong tier.
+
 ### Tonal baseline: adventure, not despair
 
 **The default register is buoyant.** Grimness is a visitor, and it leaves. This is the line
