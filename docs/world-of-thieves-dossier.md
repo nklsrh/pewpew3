@@ -182,6 +182,11 @@ Two rules:
 - **Never offer a choice the plot cannot afford to have refused.** If the story has to reach
   Algeciras, don't ask whether to go. Fake choices are worse than none, and the player always
   smells them.
+- **At a plot-critical beat, make the choice convergent.** Not *whether* to board the boat —
+  *how*. Up the gangway, around the stern, or straight up the anchor chain all reach the same
+  scene, and differ in cost, noise, and what it says about Nate. The player still expresses
+  character; the plot still moves. An escape-hatch option among them ("get Mac somewhere safe
+  first") reads instantly as the fake it is, and costs more trust than offering nothing would.
 - **Earn the big one with silence.** A run of authored beats is what makes the next decision
   feel like a decision. Contrast does the work.
 
