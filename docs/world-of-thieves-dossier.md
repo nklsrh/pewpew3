@@ -161,6 +161,34 @@ design in one table.
 
 That's one job. The next section is what twelve of them have to add up to.
 
+### Pacing: choice density is an instrument
+
+How often the player is asked to decide is not a constant. It is a dial, and it should track
+the act.
+
+| Where | Choices | Why |
+|---|---|---|
+| Act I, exploring | Every beat, wide options | The player is establishing who Nate is |
+| Escalation | Fewer, sharper, worse | Options narrow as the walls close |
+| Climax run | **Several beats with none at all** | Momentum *is* the reward. The game drives; the player holds on |
+| The turn | Exactly one, enormous | It lands harder for everything that preceded it |
+
+Asking constantly is the failure mode, and it's a seductive one because choice reads as
+respect for the player. It isn't. It **flattens tension** — every beat gets weighted the
+same, nothing accelerates, and the player stops being a rogue and becomes a committee.
+
+Two rules:
+
+- **Never offer a choice the plot cannot afford to have refused.** If the story has to reach
+  Algeciras, don't ask whether to go. Fake choices are worse than none, and the player always
+  smells them.
+- **Earn the big one with silence.** A run of authored beats is what makes the next decision
+  feel like a decision. Contrast does the work.
+
+This is the Push (§6.1) at the scale of an act: as tension rises, characters and events take
+the decisions, and the player's agency concentrates into fewer, heavier moments rather than
+being sprayed evenly across the hour.
+
 ### Pacing: information must be taken, not given
 
 The genre is pulp adventure. The moment plot starts arriving by telephone, it stops being
