@@ -556,9 +556,35 @@ Five sources, ranked by how well they hold up:
 4. **The mundane intruding.** Exact change. A phone at 2%. A shutter that needs two hands.
 5. **The complainer.** Mac. Use sparingly; it's the easiest and it wears out fastest.
 
-**Slapstick over quips.** A quip is a joke the character is making; an indignity is something
-happening *to* them, and it survives repetition where wit doesn't. A crew that is funny
-on purpose gets tiring in an hour.
+**Quips are in.** Nate is charming and he knows it — the wisecrack under fire is the genre,
+not a concession to it. Slapstick and indignity are the *more durable* of the two, because
+they survive repetition where relentless wit doesn't, so lean on them when a run needs
+lightness. But a Nate who never quips isn't restrained, he's a different character.
+
+### Tonal baseline: adventure, not despair
+
+**The default register is buoyant.** Grimness is a visitor, and it leaves. This is the line
+that separates the game from the prestige drama it keeps trying to become — a pull worth
+naming, because every individual dark choice is defensible and the cumulative drift is not.
+
+The check is mechanical, like the others: **four consecutive beats with no lightness in them
+means the tone has drifted**, whatever the plot is doing.
+
+What holds the baseline:
+
+- **Nate enjoys his job.** He is good at this, he likes being good at it, and he is having a
+  better time than the situation warrants. A protagonist who is only ever *reacting* to
+  misfortune is a victim, and nobody wants to be one for an hour.
+- **Competence is fun to watch.** Show him being excellent at something on purpose, not just
+  surviving things that happen to him.
+- **The stakes can be heavy. The hour cannot be.** Sunken children, a mentor's betrayal — fine,
+  but the scene around them still has a deckhand who wants paying and a rival complaining
+  about his arm.
+
+**Playtest note.** This exists because the tone drifted grim over about eight beats — crew
+scattered, protagonist passive and haunted — and each step was individually justified. The
+story had quietly become the thing §Appendix A says v3 rejected. Watch for it.
+
 
 Placement rules:
 
