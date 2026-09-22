@@ -11,15 +11,44 @@ decision rule** written before the run so the result can't be rationalised after
 
 ## Run it
 
-```bash
-pip install anthropic
-export ANTHROPIC_API_KEY=...
+**No API key, no signup, no pip install** - stdlib only. OVHcloud serves
+`gpt-oss-120b` anonymously at 2 requests/minute per IP:
 
-python run.py --dry-run     # print prompts, spend nothing
-python run.py               # 18 plants + 18 payoffs + 36 judgements, ~$2-3
-python report.py            # scores + the decision
-python readpack.py          # blinded pairs for a human read
+```bash
+python run.py --dry-run           # print prompts, spend nothing
+python run.py --provider ovh      # 72 calls, ~35 min, checkpoints as it goes
+python run.py --provider ovh      # re-run any time to resume where it stopped
+python report.py                  # scores + the pre-registered verdict
+python readpack.py                # blinded pairs for the human read
 ```
+
+Every call is checkpointed to `results.json`, so a dropped connection costs one
+scene, not the run. Re-running skips finished work.
+
+| `--provider` | Model | Key | Full run |
+|---|---|---|---|
+| `ovh` (default) | `gpt-oss-120b` | none | ~35 min |
+| `llm7` | `gpt-oss:20b` | none | ~7 min, but a 60/hour cap means it needs two sittings |
+| `groq` | `gpt-oss-120b` | free `GROQ_API_KEY` | ~2 min |
+| `anthropic` | `claude-opus-5` | `ANTHROPIC_API_KEY` | ~$2-3 |
+
+**This will not run from a restricted network.** Both anonymous hosts are blocked
+by egress policy in some sandboxes (403 on CONNECT). Run it from your own machine.
+
+## What the free tier does and doesn't answer
+
+Running this on `gpt-oss-120b` answers *"can a cheap open model plant blind?"* - not
+*"can the model we ship on plant blind?"* Those come apart if the game ships on a
+frontier model.
+
+It is still the more useful question if the game ships on a cheap model, which dossier
+risk #4 (cost per session, unmodelled) says is live. A narrative-first game makes a lot
+of calls. **If a free model can plant blind, the architecture is safe on any model and
+the unit economics get much easier at the same time.** A pass here is strong evidence.
+A failure is the weaker result: it would leave open whether a better writer could do it,
+and that's the point to re-run with `--provider anthropic`.
+
+`writer` is recorded on every row so results from different models never get mixed.
 
 ## Files
 
