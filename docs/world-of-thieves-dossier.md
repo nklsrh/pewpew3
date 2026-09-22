@@ -437,7 +437,15 @@ strength — not into systems.
 
 ## 9. What to build first
 
-Build the thing that de-risks #1, #3 and #6 above, and nothing else.
+**Experiment 1 — the job loop — is done and passed.** Three hand-played jobs, all three
+interesting, systems honed. The Score and the derailment pillar hold up.
+
+**Experiment 2 is running against risk #8, the plant problem**, because it's the one that
+forks the architecture: if the LLM can't plant blind, the scheduler must commit payoffs up
+front and §4.5's Score-reactivity dies with it. Protocol and harness in
+`experiments/plant-test/`, with a decision rule registered before the run.
+
+After that, build the thing that de-risks #1 and #3, and nothing else.
 
 **MVP: a text-first playable — one crew, one six-episode half-season.**
 
