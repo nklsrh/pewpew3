@@ -9,9 +9,9 @@
 
 ## 0. How to read this
 
-Section 1 is the pitch you can send a friend cold. Sections 2–6 are the design itself —
-pillars, systems, structure. Section 7 is what we don't know yet, and Section 8 is what to
-build first.
+Section 1 is the pitch you can send a friend cold. Sections 2–7 are the design itself —
+pillars, the job loop, the season arc above it, voice, cast. Section 8 is what we don't know
+yet, and Section 9 is what to build first.
 
 Appendix A is the honest record of how we got here: three earlier versions of this idea and
 the specific flaw that killed each. It's out of the main line because it's evidence, not
@@ -37,6 +37,10 @@ cell on an oxygen drip, and the next job becomes a jailbreak you never planned.
 Recurring characters remember. **Rook** — a competitor with worse luck and worse bosses —
 starts as an obstacle, comes back with a sling and a grudge, beats you once, and eventually
 gets burned by his own employer badly enough that you have to work with him.
+
+Jobs are episodes, and twelve of them make a season: a question posed in the first, a
+mandatory gut-punch at the midpoint, a showdown in the twelfth, and a cliffhanger into the
+next. What you've done along the way decides which *shape* that showdown takes.
 
 **Why it's new:** an LLM runs the world state, the rivals, and the consequences — not the
 combat. The mechanics stay tight and deterministic; the *story around them* is what evolves,
@@ -145,9 +149,181 @@ Regroup options after a Major Loss, and their pre-authored derailments:
 Every path costs you the original objective and pays you a *better scene*. That's the whole
 design in one table.
 
+That's one job. The next section is what twelve of them have to add up to.
+
 ---
 
-## 4. Voice and readability
+## 4. The season arc
+
+Individual jobs with recurring faces are a treadmill. What makes a season of television work
+is that episode 3 plants something episode 11 detonates — and the writers knew that in
+advance, because they broke the season backwards from the finale.
+
+An LLM improvising job to job can only plan *forwards*. Left alone it drifts, opens more
+questions than it closes, and never converges on a showdown. So the season is **authored in
+shape and generated in flesh**: deterministic code owns the skeleton and the scheduling,
+the LLM owns the content that hangs on it. This is the same authoring/generation boundary
+as Pillar I, moved up a level.
+
+### 4.1 Shape of a season
+
+**Twelve jobs, three acts.** Not 22 — this is a mobile game played in 5-minute sessions,
+and a thread nobody can remember isn't a thread. Twelve is roughly three weeks of casual play.
+
+```
+ACT I — SET UP                    ACT II — TURN              ACT III — CONVERGE
+┌───┬───┬───┬───┐            ┌───┬───┬───┬───┐           ┌───┬───┬───┬────┐
+│ 1 │ 2 │ 3 │ 4 │            │ 5 │ 6 │ 7 │ 8 │           │ 9 │10 │11 │ 12 │
+└─▲─┴───┴───┴─▲─┘            └───┴─▲─┴───┴───┘           └───┴───┴───┴─▲──┘
+  │           │                    │                                   │
+  PREMIERE    MARK REVEAL          MIDPOINT                            FINALE
+  poses the   the season's         mandatory Major Loss;               showdown +
+  question    antagonist gets      recontextualises the                the Button
+              a face and a name    question. Nothing is
+                                   the same after it.
+  ── no new threads may open after ep 9. Act III only closes them. ──
+```
+
+Four **fixed beat slots** — premiere, Mark reveal, midpoint, finale. The other eight episodes
+are variable and chosen at runtime (§4.4). The fixed slots are what guarantee convergence;
+without them you have a soap opera that never ends.
+
+### 4.2 The season question
+
+Every season poses exactly one question in episode 1 and answers it in episode 12.
+
+> *Season 1: who burned the Medici job, and why do they want the Rossi convoy?*
+
+The question must be (a) answerable with a person, (b) something the crew can be hurt by,
+and (c) phrased so the player can say it out loud after two episodes. If the player can't
+state the season question, the season has failed regardless of how good the jobs were.
+
+**The Mark** is the answer wearing a face — the season's antagonist. Unlike Rook, the Mark
+is not a rival thief; they're the power that's been *using* the crew. They get named in
+episode 4 and appear in person no more than three times all season. Scarcity is what makes
+a finale feel like a finale.
+
+### 4.3 Threads — the anti-drift device
+
+A **Thread** is a tracked, open narrative obligation. It is the single most important data
+structure in the game, because it's what stops the LLM from spraying loose ends.
+
+```
+THREAD
+  id          t_greasemonkey_debt
+  opened      ep 5, Tangier
+  involves    Yusuf (mechanic, sold you out)
+  stakes      he still has the safehouse address
+  pays off as betrayal | leverage | rescue
+  due by      ep 9
+  status      open | cold | paid
+```
+
+The rules are strict, and deterministic code enforces them — not the LLM:
+
+- **The LLM may open a thread. It may not decide when one pays.** A scheduler picks the
+  episode. This is the whole trick: improvisation forward, convergence backward.
+- **Budget: 5 open threads, maximum.** At the cap, no new thread opens until one closes.
+  Sprawl is the failure mode; the cap is the fix.
+- **Every thread has a due-by episode.** Past due it goes **cold**, and a cold thread costs
+  you something concrete and off-screen — the contact is dead, the leverage is gone, the
+  favour was called in by someone else. Cold threads are still *content*; they are never
+  silently deleted.
+- **No thread opens after episode 9.** Act III is for closing only.
+
+### 4.4 Episode types
+
+Eight of the twelve are chosen at runtime from three types. The mix is fixed; which specific
+episode lands where is not.
+
+| Type | Count | Job |
+|---|---|---|
+| **Spine** | 4 | The fixed beats. Advance the season question. Cannot be skipped. |
+| **Thread** | 5 | Pay off a specific open Thread. Chosen by the scheduler from what's open. |
+| **Standalone** | 3 | A self-contained job. Earns Score, opens one small Thread, and buys breathing room. |
+
+The standalones are load-bearing, not filler-in-the-bad-sense. Constant escalation is
+exhausting, and a clean self-contained heist is where the crew gets to be funny.
+
+### 4.5 How the Score chooses what gets set up next
+
+This is where the meta layer earns its keep. The Score doesn't just tune difficulty — **it
+selects the genre of the next complication.**
+
+At each episode boundary, code reads the Score, ranks the pressures, and takes the top one or
+two. Those *constrain what kind of Thread the LLM is allowed to open.* Deterministic
+selection, generated content.
+
+| Score condition | Pressure | Thread genre it opens |
+|---|---|---|
+| Bankroll low | Desperation | A job you shouldn't take. A lender who isn't a bank. |
+| Bankroll high | Attention | Someone wants a cut. The crew disagrees about spending it. |
+| Heat high | Pursuit | A cop who gets a name and a face. A safehouse burns. |
+| Heat low | Complacency | You're being set up. The Mark moves where you aren't looking. |
+| Crew hurt / low morale | Loyalty | Mac or Tess takes a side job. Someone considers leaving. |
+| Crew healthy | Ambition | The crew pushes for a bigger target than you planned. |
+| Artifacts held | Covet | A buyer, a rival, or a government comes for what's in your bag. |
+| Leads cold | Dead end | To move, you must burn a contact or ask an enemy. |
+
+The consequence is that **two players get structurally different seasons from the same spine.**
+The one who hoards artifacts and stays clean gets a season about paranoia and being hunted for
+what they own. The one who spends recklessly and draws heat gets a season about desperation
+and a cop who won't let go. Same Mark, same finale slot, different show.
+
+### 4.6 Finale modes
+
+The finale is one authored confrontation with the Mark, and the Score you arrive in decides
+which *shape* it takes. One antagonist, four finales.
+
+| Arrive as | Finale mode | The shape of it |
+|---|---|---|
+| Rich, low heat, crew healthy | **The Heist** | You're the aggressor. A planned score against the Mark on your terms. |
+| Broke, hunted, crew hurt | **The Last Stand** | Cornered. Survive the night and expose the Mark, because you can't beat them. |
+| A crew member lost or held | **The Rescue** | Get them back. The money is explicitly secondary, and everyone says so. |
+| Artifacts rich, rival still alive | **The Double-Cross** | A temporary alliance with Rook against the Mark. The question is who turns first. |
+
+**Spine beats cannot be failed out of — only failed forward.** You can't lose your way out of
+the finale; a botched finale changes which ending you get and what the Button is, never
+whether the season resolves.
+
+### 4.7 The Button, and what survives the season
+
+The finale answers the season question. Then, in the last ninety seconds, it does two things
+in a fixed order:
+
+1. **Leaves exactly one Thread deliberately unpaid.** Not forgotten — *visibly* unpaid, on
+   screen, acknowledged by the crew.
+2. **Opens exactly one new Thread** that reframes the Mark upward: the person you just beat
+   was working for someone, and that someone now knows your name.
+
+Carryover into the next season is deliberately uneven, because a game where everything
+accumulates forever breaks in season three:
+
+| Carries over fully | Partially resets | Why |
+|---|---|---|
+| Scars, reputation, rivals, who owes whom | — | This is the accumulated legend. It's the reason to keep playing. |
+| — | **Bankroll** | Narratively: you spend it, go to ground, or get robbed in the gap. Keeps the economy from inflating out of tension. |
+| — | **Heat** | Decays over the time skip between seasons. A season must be able to start quiet. |
+
+So the thing that actually grows across seasons isn't money — it's **how many people know
+your name, and what they want from you.** (This is the Hoard idea from the original pitch,
+finally sitting in the right place: legend as the currency, not gold.)
+
+### 4.8 "Previously on..."
+
+Every session opens with a generated 3-line recap built from the Score and the open Threads.
+
+> *Previously: you took the Rossi case off a sunken sub and lost it to Rook in open water.
+> Mac's lungs are still bad. Yusuf has your safehouse address and hasn't used it yet.*
+
+This is not flavour. It's the fix for the single biggest failure mode of a serialised mobile
+game: coming back after four days and having no idea what the thread was. It doubles as a
+free check on the system — if the recap reads as three disconnected facts rather than a
+situation, the season has drifted and the thread budget is too loose.
+
+---
+
+## 5. Voice and readability
 
 The single most useful piece of playtest feedback: **"I'm losing focus — the prose needs to
 be basic enough that a 10-year-old reads it fast."**
@@ -175,7 +351,7 @@ After (right):
 
 ---
 
-## 5. Cast
+## 6. Cast
 
 | Character | Role | Function in the system |
 |---|---|---|
@@ -186,7 +362,7 @@ After (right):
 
 ---
 
-## 6. The optional kinetic layer
+## 7. The optional kinetic layer
 
 The playtest showed the narrative layer stands on its own — *"I even don't need any real-time
 gameplay."* Action beats are therefore an **enhancement, not a dependency**. If built, they
@@ -227,7 +403,7 @@ strength — not into systems.
 
 ---
 
-## 7. Open questions and risks
+## 8. Open questions and risks
 
 1. **Does the LLM stay on-voice over 20 jobs?** Playtest ran ~4 scenes. Drift, repetition, and
    escalation fatigue are unproven. Mitigation: a tight system prompt plus a hard-authored
@@ -241,32 +417,51 @@ strength — not into systems.
    unmodelled.
 5. **Does the rival track survive repetition?** The 3-state arc is great once. What's State 4,
    and what does the second rival look like without feeling like a re-skin?
-6. **Skills mismatch, honestly restated.** The audit said: strong at game feel, weak at systems
+6. **Does the season actually converge?** The Thread budget, due-by dates and the no-new-threads
+   rule after ep 9 are the machinery for it, but all of it is untested. The specific failure to
+   watch for: a finale that resolves the season question while three cold threads sit in the
+   corner making the whole thing feel unfinished.
+7. **Is twelve the right number?** Picked by feel, defended by session length, validated by
+   nobody. Too short and the midpoint has no room to land; too long and the player forgets the
+   question. Test at six before committing to twelve.
+8. **Can the LLM write a planted line it doesn't know the payoff of?** Episode 3 must plant
+   something episode 11 detonates. The scheduler knows the payoff; at planting time the LLM
+   may not. If plants come out generic, the fix is to hand the LLM the payoff up front and
+   trust it not to leak — unproven either way.
+9. **Skills mismatch, honestly restated.** The audit said: strong at game feel, weak at systems
    and narrative. v4 is a *narrative-first* game. The counter-argument is that the LLM is
    doing the narrative work and the pre-authored derailment shapes are a small, bounded
    systems job — but this is the load-bearing bet of the project and should be named as such.
 
 ---
 
-## 8. What to build first
+## 9. What to build first
 
-Build the thing that de-risks #1 and #3 above, and nothing else.
+Build the thing that de-risks #1, #3 and #6 above, and nothing else.
 
-**MVP: a text-first playable, one crew, one campaign arc, three jobs.**
+**MVP: a text-first playable — one crew, one six-episode half-season.**
+
+Six rather than three jobs, and that is a deliberate scope increase over the earlier plan.
+Three jobs can't test an arc, and the arc is now the thing most likely to be wrong. Six is
+the smallest number that still has a premiere, a midpoint Major Loss, and a finale.
 
 - Web page or Discord bot. No engine, no 3D, no art.
 - Scene → three options → outcome → Score card. Repeat.
-- Ships with: the full Rook 3-state arc, one Major Loss with all three regroup branches
-  authored, and the Score visibly changing across jobs.
-- Persistent state between sessions so "yesterday's defeat" is testable.
+- Ships with: a stated season question, 3 spine beats + 3 variable episodes, the Thread
+  table with budget and due-by enforcement, the full Rook 3-state arc, one Major Loss with
+  all three regroup branches authored, and two of the four finale modes.
+- Persistent state between sessions, and the "Previously on" recap — it's three lines of
+  work and it tests convergence for free.
 
 **Success criteria (in priority order):**
 1. You play it a second day without being asked to.
-2. The Score changes a decision at least once per session.
-3. You remember Rook's name a week later.
+2. You can state the season question out loud after episode 2.
+3. The Score changes a decision at least once per session.
+4. The finale feels earned by episode 3's plant — not just loud.
+5. You remember Rook's name a week later.
 
 **Explicitly not in the MVP:** real-time combat, 3D dioramas, gesture inputs, procedural
-mission generation, more than one rival.
+mission generation, more than one rival, season two, and all four finale modes.
 
 If the text version isn't fun to read and replay, no amount of hitstop saves it. If it is,
 the kinetic layer becomes a pure upside bet on the strongest existing skill.
