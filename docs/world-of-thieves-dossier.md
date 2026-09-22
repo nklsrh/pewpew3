@@ -319,17 +319,52 @@ So the thing that actually grows across seasons isn't money — it's **how many 
 your name, and what they want from you.** (This is the Hoard idea from the original pitch,
 finally sitting in the right place: legend as the currency, not gold.)
 
-### 4.8 "Previously on..."
+### 4.8 Keeping the player oriented
 
-Every session opens with a generated 3-line recap built from the Score and the open Threads.
+The failure this prevents is specific and it is not boredom. Character friction is the most
+engaging thing in the game, and it will happily eat the season spine while the player is
+enjoying it. They look up six beats later holding an object whose purpose they can no longer
+remember. **Good scenes are what causes this**, which is why it needs a clock rather than
+authorial judgement.
+
+Three tiers, and all three are cheap:
+
+**1. The season question lives in the state panel.** Permanently. Every beat. It costs one
+line and it is the difference between a heist and a series of rooms.
+
+**2. "Previously on..." at session start.** Three lines, generated from the Score and the
+open Threads.
 
 > *Previously: you took the Rossi case off a sunken sub and lost it to Rook in open water.
 > Mac's lungs are still bad. Yusuf has your safehouse address and hasn't used it yet.*
 
-This is not flavour. It's the fix for the single biggest failure mode of a serialised mobile
-game: coming back after four days and having no idea what the thread was. It doubles as a
-free check on the system — if the recap reads as three disconnected facts rather than a
-situation, the season has drifted and the thread budget is too loose.
+This is the fix for coming back after four days. It doubles as a free drift check: if the
+recap reads as three disconnected facts rather than a situation, the season has drifted and
+the Thread budget is too loose.
+
+**3. The stakes clock — a mid-session refresh.** Count beats since the player was last told
+what is at stake. Past the threshold (**6–8 beats**), the next scene must carry a refresh.
+
+The refresh is **always diegetic**. Never a narrator summary, never a lore panel. It is
+delivered by a character with a reason to be saying it right now:
+
+| Delivery vehicle | Why it works |
+|---|---|
+| **Someone who was out of the loop** | Mac in a cell for a day has to be caught up, so the player gets caught up with him. The best one. |
+| **Someone who doesn't know yet** | Explaining to Rook why the case matters is explaining to the player. |
+| **Someone who needs convincing** | A fence who won't take the job until he hears what it is. |
+
+The tell that it landed: the character has an *emotional* reason to say it, not an
+informational one. Mac isn't reciting background — he's frightened, and he's telling Nate
+he is holding something that gets people killed.
+
+> **Mac:** "Alright. Sit down, kid, because you've been running for eleven hours and I don't
+> think anybody's told you what you're actually holding."
+
+**Playtest note.** This section exists because the rule in §4.2 got broken in play: six
+strong episodes ran with no season question ever stated, and the player lost the plot
+exactly as §4.2 predicts. The character work was not the problem. The absence of a spine to
+hang it on was.
 
 ---
 
