@@ -263,9 +263,28 @@ Rules for the bench:
 - **At least one scene each where they're simply likeable** and the plot isn't moving.
 - **Three candidates minimum**, or the player will guess by elimination.
 
-A cold-open flashback can bank *some* credit retroactively, and it's a legitimate move — TV
-does it constantly. It is strictly worse than having lived it, and it should be the recovery
-path rather than the plan.
+**The cold open — banking late.** A flashback placed immediately before the withdrawal is a
+first-class tool, not a consolation prize. Playtested: an Act-I-less Mark was rescued by one
+short scene, and the reveal landed. It isn't a weaker version of seeding — it's a
+*compression* of it, and the compression works because the contrast is instant. You meet the
+man being kind, and two paragraphs later you learn what he is.
+
+Rules, all of them load-bearing:
+
+1. **Place it right before the reveal cashes it.** Banked early it's just a nice scene;
+   banked late it's a detonator.
+2. **Physical and small.** One object the player's hands remember — a pastry box, a second
+   chair pulled up, eight per cent instead of nine. Not a speech about loyalty.
+3. **Give, never take.** The scene's only job is generosity.
+4. **One line that is innocent then and unbearable now**, and genuinely innocent on its
+   face: *"In ten years you will be very good, and you will remember who was kind to you
+   when you were nobody."*
+5. **Do double duty.** Bank a second thing while you're in there — the same Lisbon scene
+   that establishes the fence can put a woman at the tram stop asking for a light.
+6. **Under 200 words**, and no suspicion anywhere in it.
+
+The limit: **twice a season, maximum.** Any more and the player learns that a warm memory is
+a fuse, and every act of kindness in the game starts reading as a countdown.
 
 **The Mark** is the answer wearing a face — the season's antagonist. Unlike Rook, the Mark
 is not a rival thief; they're the power that's been *using* the crew. They get named in
