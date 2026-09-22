@@ -10,7 +10,7 @@
 ## 0. How to read this
 
 Section 1 is the pitch you can send a friend cold. Sections 2–7 are the design itself —
-pillars, the job loop, the season arc above it, voice, cast. Section 8 is what we don't know
+pillars, the job loop, the season arc above it, voice, the crew. Section 8 is what we don't know
 yet, and Section 9 is what to build first.
 
 Appendix A is the honest record of how we got here: three earlier versions of this idea and
@@ -33,6 +33,10 @@ Nothing ever ends in "Game Over". Every job settles into a **Score**: cash, inju
 police heat, burned clients, stolen artifacts, and new leads. A botched job doesn't restart —
 it *bends the story*. You lose the prize, your rival takes it, your pilot ends up in a police
 cell on an oxygen drip, and the next job becomes a jailbreak you never planned.
+
+Your crew are not a chorus. They argue, they're often right, and they start moving before
+you've decided — so saying nothing is how you end up in someone else's plan. Each of them
+wants something from this job they haven't told you.
 
 Recurring characters remember. **Rook** — a competitor with worse luck and worse bosses —
 starts as an obstacle, comes back with a sling and a grudge, beats you once, and eventually
@@ -68,7 +72,7 @@ Every job settles into four persistent meters:
 | Meter | What it does |
 |---|---|
 | **Bankroll** | Cash. Buys gear, bribes, medics, safehouses. Running dry forces low-rent, dangerous side hustles. |
-| **Crew state** | Mac and Tess's health + morale. Injuries remove capabilities (Mac with the bends = no muscle, no pilot, for 48h). |
+| **Crew state** | Mac and Tess's health, morale and **trust**. Injuries remove capabilities (Mac with the bends = no muscle, no pilot, for 48h). Low trust is worse: they stop asking and act alone (§6.3). |
 | **Heat** | Police and syndicate attention. Burns routes, raises bribe costs, seeds ambushes. |
 | **Leads & artifacts** | Physical breadcrumbs — a medal inscription, a logbook, a decoder — that unlock the next destination. |
 
@@ -99,6 +103,12 @@ surfacing too fast) — not by a dice roll.
 Choices do **not** fan out infinitely. Each regroup option funnels into a *distinct pulp
 sub-genre beat*, pre-authored in shape and improvised in detail. Three paths, three genres,
 one authored spine.
+
+### Pillar V — The crew competes for the decision
+Supporting characters don't comment on the player's choice, they try to win it. Each one
+carries a private reason for being on the job that leaks a sentence at a time under
+pressure. Crucially a push **sets the default** — the crew member is already acting, so
+doing nothing has a direction and overriding a friend costs trust. Detail in §6.
 
 ---
 
@@ -351,14 +361,84 @@ After (right):
 
 ---
 
-## 6. Cast
+## 6. The crew, and the Push
 
-| Character | Role | Function in the system |
+The cast are not commentators. They compete for the decision.
+
+| Character | Role | Undisclosed stake |
 |---|---|---|
-| **Nate** | Player. Athletic, improvisational, allergic to keeping a gun for long. | The body in the room. Relies on momentum and props. |
-| **Mac** | Ageing pilot. Cigars, bad back, pragmatic cynic. | Tactical warnings, exits, the moral/physical baseline. **Mac down = no foundation.** |
-| **Tess** | Driver, tech, the crew's accountant. | The bottom line. Reminds you when a stunt cost more than it earned. |
-| **Rook** | Competitor, not mastermind. Same job, worse bosses, worse luck. | The mirror. Absorbs the blunt trauma the player dodges — until he doesn't. |
+| **Nate** | Player. Athletic, improvisational, allergic to keeping a gun for long. | — the player supplies it |
+| **Mac** | Ageing pilot. Cigars, bad back, pragmatic cynic. | Why he really stopped flying |
+| **Tess** | Driver, tech, the crew's accountant. | Why she found Nate in the first place |
+| **Rook** | Competitor, not mastermind. Same job, worse bosses, worse luck. | Who actually owns his debt |
+
+### 6.1 The Push
+
+At a decision point a crew member advocates. Three rules make it land:
+
+1. **The argument must be genuinely good.** If the player can dismiss it in one beat,
+   there's no tension — it's just flavour with a speech bubble. The crew member should be
+   right, or right enough that refusing costs something real.
+2. **The push sets the default.** They are *already moving* — van in gear, pistol out, door
+   handle in hand. Doing nothing now has a direction.
+3. **Overriding costs trust.** Not a scolding. A memory.
+
+Point 2 is the whole mechanic. A neutral three-option menu makes every choice free; a crew
+member already driving north makes silence into a decision. The player who taps through
+ends up living someone else's plan — and that is a characterisation of Nate, not a
+failure state.
+
+> **Tess:** "Ninety minutes. We'll be back by four with something worth trading."
+> She pulls onto the road. North. She doesn't ask. She doesn't look over.
+>
+> `1. Say nothing.   2. "Stop the van."   3. "What's in the case, Tess?"`
+
+### 6.2 Undisclosed stakes — the mystery box
+
+Every crew member is on the job for a private reason. It surfaces under pressure and never
+all at once.
+
+- **One sentence at a time**, and only when the player presses.
+- **Pressing is never free** — it costs time, position, or the moment you had.
+- **Never fully answered in the scene where it's asked.** The deflection is the content.
+- **The answer is not decided in advance.** It gets built out of what the player presses on,
+  which is the same late-binding trick as §4.3 and carries the same risk.
+
+The leak is a correction, a flat delivery, a stop that lands louder than the answer:
+
+> **Tess:** "I need what's in it."
+> Beat.
+> **Tess:** "*We* need what's in it."
+
+### 6.3 Trust, and the cost of silence
+
+Silence is a choice, and the Score records it — not as a number to optimise, but as
+something the crew acts on later:
+
+```
+Tess: knows you'll fold
+```
+
+Trust has a mechanical floor and ceiling:
+
+| Trust | What the crew does |
+|---|---|
+| High | They ask, then follow your call. |
+| Falling | They ask, then do it their way anyway. |
+| Low | **They stop asking.** They act alone, off-screen, and you find out afterwards. |
+
+A crew that stops asking is how a Major Loss arrives without an enemy in the room.
+
+### 6.4 The three-way tension
+
+Every good decision point pulls in three directions at once — and a scene that only has one
+or two of these is a scene worth rewriting:
+
+```
+        what the job needs
+                 |
+   what the crew wants ——— what Nate can live with
+```
 
 ---
 
@@ -428,7 +508,15 @@ strength — not into systems.
    something episode 11 detonates. The scheduler knows the payoff; at planting time the LLM
    may not. If plants come out generic, the fix is to hand the LLM the payoff up front and
    trust it not to leak — unproven either way.
-9. **Skills mismatch, honestly restated.** The audit said: strong at game feel, weak at systems
+9. **Can a mystery box survive being improvised?** §6.2 says the crew's private stakes get
+   built from what the player presses on. That's the same late-binding bet as the plant
+   problem, with a worse failure mode: a reveal that contradicts an earlier leak is a
+   continuity break the player will catch, because they're the one who pressed for it.
+   Every leak needs recording as a constraint, not just as prose.
+10. **Does the Push read as railroading?** A crew member who sets the default and is usually
+   right is one bad tuning pass away from feeling like the game playing itself. The line to
+   watch: overriding must be *possible and satisfying*, not just expensive.
+11. **Skills mismatch, honestly restated.** The audit said: strong at game feel, weak at systems
    and narrative. v4 is a *narrative-first* game. The counter-argument is that the LLM is
    doing the narrative work and the pre-authored derailment shapes are a small, bounded
    systems job — but this is the load-bearing bet of the project and should be named as such.
