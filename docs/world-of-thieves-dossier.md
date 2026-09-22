@@ -25,7 +25,7 @@ Each job is a short, readable, choice-driven heist scene: you pick simple physic
 (*kick the stool*, *grab the rope*, *slide*), and the scene reacts with pulp-action physics —
 things break, alarms trip, ceilings collapse. Jobs run 3–5 minutes.
 
-Nothing ever ends in "Game Over". Every job settles into a **Ledger**: cash, injuries,
+Nothing ever ends in "Game Over". Every job settles into a **Score**: cash, injuries,
 police heat, burned clients, stolen artifacts, and new leads. A botched job doesn't restart —
 it *bends the story*. You lose the prize, your rival takes it, your pilot ends up in a police
 cell on an oxygen drip, and the next job becomes a jailbreak you never planned.
@@ -51,7 +51,7 @@ Narration generated mid-fight is either an unreadable text spew during a brawl, 
 that kills the game feel. Nobody reads prose while dodging.
 
 **Kept from it:** the Hoard→difficulty scaling idea, and Scars as permanent narrative
-consequences. Both survive into the Ledger.
+consequences. Both survive into the Score.
 
 ### v2 — "Rogue's Ledger": turn-based node stealth, LLM as adversarial DM
 Better — LLM moved out-of-band to briefing/debrief. But the competitive scan showed the
@@ -106,7 +106,10 @@ giving way, a bought-off mechanic. Bad outcomes bend the world instead of resett
 Failure is *content*, not punishment — which is also why it's funny rather than frustrating:
 when you break the chandelier, Mac yells at you, and that's half the appeal.
 
-### Pillar II — The Living Ledger
+### Pillar II — The Score
+*In heist fiction "the score" is the job you pull. Here it's the running total of what
+pulling them has cost and won you — the state the crew carries into the next one.*
+
 Every job settles into four persistent meters:
 
 | Meter | What it does |
@@ -150,7 +153,7 @@ one authored spine.
 
 ```
 ┌─────────────────────────────────────────────────────┐
-│ 1. THE VAN — review Ledger, decode leads, buy kit   │
+│ 1. THE VAN — review the Score, decode leads, buy kit│
 └──────────────────────────┬──────────────────────────┘
                            ▼
 ┌─────────────────────────────────────────────────────┐
@@ -178,7 +181,7 @@ mission track and forces a change in team composition.
 ║  Objective: 1938 Rossi Case ......... LOST       ║
 ║  Casualties: Mac .......... DECOMPRESSION (48h)  ║
 ║  Assets: sidearm ditched · boat fuel burned      ║
-║  Ledger: $12,000                                 ║
+║  Cash: $12,000                                   ║
 ╚══════════════════════════════════════════════════╝
 ```
 
@@ -283,7 +286,7 @@ strength — not into systems.
 2. **Authoring vs. generation boundary.** Current answer: derailments and regroup beats are
    pre-shaped (authored), prose and dialogue are generated. This line needs defending — it's
    the whole anti-"squishy" defence.
-3. **Does the Ledger actually bite?** Cash and injuries must constrain real choices, not just
+3. **Does the Score actually bite?** Cash and injuries must constrain real choices, not just
    decorate the debrief. Untested.
 4. **Cost per session.** Narrative-first means many tokens per play session. Unit economics
    unmodelled.
@@ -303,14 +306,14 @@ Build the thing that de-risks #1 and #3 above, and nothing else.
 **MVP: a text-first playable, one crew, one campaign arc, three jobs.**
 
 - Web page or Discord bot. No engine, no 3D, no art.
-- Scene → three options → outcome → Ledger card. Repeat.
+- Scene → three options → outcome → Score card. Repeat.
 - Ships with: the full Rook 3-state arc, one Major Loss with all three regroup branches
-  authored, and the Ledger visibly changing across jobs.
+  authored, and the Score visibly changing across jobs.
 - Persistent state between sessions so "yesterday's defeat" is testable.
 
 **Success criteria (in priority order):**
 1. You play it a second day without being asked to.
-2. The Ledger changes a decision at least once per session.
+2. The Score changes a decision at least once per session.
 3. You remember Rook's name a week later.
 
 **Explicitly not in the MVP:** real-time combat, 3D dioramas, gesture inputs, procedural
