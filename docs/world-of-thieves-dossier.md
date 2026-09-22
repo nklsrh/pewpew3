@@ -446,10 +446,42 @@ Trust has a mechanical floor and ceiling:
 | High | They ask, then follow your call. |
 | Falling | They ask, then do it their way anyway. |
 | Low | **They stop asking.** They act alone, off-screen, and you find out afterwards. |
+| Floor | **They leave.** See §6.5. |
 
 A crew that stops asking is how a Major Loss arrives without an enemy in the room.
 
-### 6.5 The three-way tension
+### 6.5 Divergence — when a crew member leaves
+
+Low trust doesn't only change how a crew member behaves in a scene. Past the floor, **they
+leave** — geographically, to go pursue the thing they never told you about.
+
+This is the real teeth behind Pillar V. A crew member is a set of capabilities, and losing
+one is a mechanical amputation, not a sad cutscene:
+
+| Gone | What you lose |
+|---|---|
+| **Tess** | The wheel, the scanner, comms, anything that needs a laptop. No warning before a raid. |
+| **Mac** | Exits, aircraft, and the person who tells you the job is a bad idea before you take it. |
+
+Four rules make divergence land rather than just punish:
+
+1. **They don't announce it.** They're gone when you reach for them. The first sign is a van
+   that isn't where you left it.
+2. **They keep acting off-screen.** They're chasing their own stake, and the world updates
+   accordingly — their moves show up in later jobs as changed conditions, closed routes, or
+   a person who already has what you came for.
+3. **Recovery is offered but never guaranteed.** Reconciliation beats appear on the contract
+   board. They can fail, and failing costs you something.
+4. **Money is not the lever. Their stake is.** You get a crew member back by serving the
+   thing they've been hiding, not by improving the split. Which means you have to have been
+   paying attention to the leaks in §6.3.
+
+At the far end, divergence is permanent, and a former crew member is exactly the raw
+material the Rook track (Pillar III) is built from: someone who knows your methods, has a
+grievance, and wants the same object. **The most dangerous rival in the game should be
+someone who used to be in the van.**
+
+### 6.6 The three-way tension
 
 Every good decision point pulls in three directions at once — and a scene that only has one
 or two of these is a scene worth rewriting:
