@@ -112,7 +112,11 @@ def main():
     ap.add_argument("--provider", default="ovh",
                     choices=["ovh", "llm7", "groq", "anthropic"])
     ap.add_argument("--dry-run", action="store_true")
-    ap.add_argument("--out", default="results.json")
+    ap.add_argument("--out", default=None,
+                    help="default: results-<provider>.json, so parallel runs "
+                         "on different providers never overwrite each other")
+    ap.add_argument("--rpm", type=float, default=None,
+                    help="override the provider's request rate")
     ap.add_argument("--seed", type=int, default=7)
     args = ap.parse_args()
 
@@ -122,14 +126,17 @@ def main():
                 print(f"\n{'='*70}\n{s['id']} / {c}\n{'='*70}")
                 print(fx.plant_prompt(s, c))
         print(f"\n{'='*70}\n18 plants + 18 payoffs + 36 judgements = 72 calls.")
+        caps = {"llm7": "60 req/hour cap - needs two sittings"}
         for n, p in providers.PROVIDERS.items():
-            print(f"  {n:<10} {p['rpm']:>3} RPM -> ~{72*60/p['rpm']/60:.0f} min"
-                  f"   {'no key' if not p['key_env'] else p['key_env']}")
+            note = caps.get(n, "no key" if not p["key_env"] else p["key_env"])
+            print(f"  {n:<10} {p['rpm']:>4g} RPM -> ~{72/p['rpm']:.0f} min   {note}")
         return
 
+    if args.rpm and args.provider != "anthropic":
+        providers.set_rpm(args.provider, args.rpm)
     backend = Anthropic() if args.provider == "anthropic" else OpenAICompat(args.provider)
 
-    out = Path(args.out)
+    out = Path(args.out or f"results-{args.provider}.json")
     rows = json.loads(out.read_text()) if out.exists() else []
     done = {key(r): r for r in rows}
     if done:
@@ -138,14 +145,32 @@ def main():
     def save():
         out.write_text(json.dumps(rows, indent=2))
 
+    stalled = 0
+
     for s in fx.SCENARIOS:
         for c in fx.CONDITIONS:
             k = f"{s['id']}/{c}"
             if k in done and done[k].get("payoff"):
                 continue
             print(f"  write {k}", flush=True)
-            plant = backend.write(fx.VOICE, fx.plant_prompt(s, c))
-            payoff = backend.write(fx.VOICE, fx.payoff_prompt(s, plant))
+            try:
+                plant = backend.write(fx.VOICE, fx.plant_prompt(s, c))
+                payoff = backend.write(fx.VOICE, fx.payoff_prompt(s, plant))
+            except providers.RateLimited as e:
+                stalled += 1
+                print(f"    rate limited: {e}")
+                if stalled >= 3:
+                    print("\n  Three scenes rate-limited in a row - the free pool is "
+                          "saturated.\n  Stopping. Progress is saved; re-run later to "
+                          "resume, or try\n  --provider groq (free key, 30 RPM) or "
+                          "--rpm 0.5 to go slower.")
+                    save()
+                    return
+                continue
+            except RuntimeError as e:
+                print(f"    failed: {e} - skipping, re-run to retry")
+                continue
+            stalled = 0
             row = dict(scenario=s["id"], condition=c, plant=plant, payoff=payoff,
                        writer=args.provider)
             rows.append(row)
@@ -170,12 +195,15 @@ def main():
         save()
 
     unscored = [key(r) for r in rows if not r.get("payoff_scores")]
+    missing = 18 - len(rows)
     save()
-    print(f"\nwrote {out}  ({len(rows)} scenes, {len(unscored)} unscored)")
+    print(f"\nwrote {out}  ({len(rows)}/18 scenes, {len(unscored)} unscored)")
+    if missing:
+        print(f"  {missing} scenes not written yet - re-run to continue")
     if unscored:
         print(f"  unscored: {', '.join(unscored)}  - re-run to retry")
-    print("  python report.py     # the verdict")
-    print("  python readpack.py   # the human read, which is the one that counts")
+    print(f"  python report.py {out}     # the verdict")
+    print(f"  python readpack.py {out}   # the human read, the one that counts")
 
 
 if __name__ == "__main__":
