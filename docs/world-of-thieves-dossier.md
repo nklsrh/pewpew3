@@ -13,6 +13,12 @@ Section 1 is the pitch you can send a friend cold. Sections 2–7 are the design
 pillars, the job loop, the season arc above it, voice, the crew. Section 8 is what we don't know
 yet, and Section 9 is what to build first.
 
+**On the worked examples.** Braga, the Rossi convoy, Tess and Rook appear throughout as
+illustrations. That fiction was a *pressure-testing instrument*, not canon — it was written to
+find out where the design broke, it did, and it has been discarded. Several of its arcs were
+built on the premise this document now rejects (§2, *What everyone wants*). Read the examples
+as evidence for the mechanic beside them; don't read them as the game.
+
 Appendix A is the honest record of how we got here: three earlier versions of this idea and
 the specific flaw that killed each. It's out of the main line because it's evidence, not
 design — but read it before proposing a change, because it's where the dead ends are marked.
