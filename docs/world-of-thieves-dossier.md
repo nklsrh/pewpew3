@@ -296,6 +296,12 @@ The question must be (a) answerable with a person, (b) something the crew can be
 and (c) phrased so the player can say it out loud after two episodes. If the player can't
 state the season question, the season has failed regardless of how good the jobs were.
 
+**The menace test.** A Mark is frightening in proportion to what they can take *from the
+player*, not to what they have done to strangers. Braga in playtest was polite, patient and
+well-motivated, and landed as *mildly interesting* — because his plan destroyed evidence of
+a historical crime rather than anything the player wanted or owned. Ask of every Mark: **what
+do they take from you in the next hour, and would you miss it?**
+
 **A reveal has to do three things**, and a reveal that only does the third is trivia:
 
 1. **Cost** — it takes something away, or makes something the player already did wrong.
@@ -308,6 +314,19 @@ If the answer is "nothing much", the reveal has failed regardless of how clever 
 Distance is what kills it — a faceless institution the player met once, offscreen, six weeks
 ago has no grip. **The Mark must already be inside the player's life**: their money, their
 fence, their routes, their people.
+
+**The objective must be *wanted*, not merely righteous.** This is a pulp adventure and its
+engine is greed plus wonder. A season whose goal is *stop a bad thing* has quietly become a
+thriller — the player is no longer chasing treasure, they're doing homework.
+
+The test: **put the greed and the conscience on the same object.** If the thing the villain
+destroys on Thursday is *also* the thing worth a fortune, the player wants to get there for
+their own reasons and the moral weight rides along for free. If the moral stake replaces the
+treasure rather than sitting on top of it, engagement falls off a cliff and the player can't
+tell you why.
+
+**Playtest, verbatim:** *"I'm no longer chasing valuable treasure."* The season's object had
+become a document proving an 88-year-old crime. Worthy. Not wanted.
 
 **Casting the Mark: warmth is the currency.** A betrayal is a *withdrawal*, and the player
 can only lose what they were given. A Mark the player has never liked is a name on a page,
@@ -362,6 +381,27 @@ a fuse, and every act of kindness in the game starts reading as a countdown.
 is not a rival thief; they're the power that's been *using* the crew. They get named in
 episode 4 and appear in person no more than three times all season. Scarcity is what makes
 a finale feel like a finale.
+
+### 4.2b What a first season is for
+
+A betrayal needs a relationship, and a relationship needs seasons. Season one cannot run the
+arc where someone the player loves turns — **there hasn't been time to love anyone.**
+
+| Season | Its actual job |
+|---|---|
+| **One** | Make the player love the crew. One clean, wanted treasure. A Mark who is an *obstacle*, not an intimate. Warm bench planted and left alone. |
+| **Two** | Now the betrayal lands, because the credit exists. The Mark comes off the bench. |
+| **Three+** | Consequences of season two. Former crew as rivals (§6.5). |
+
+Getting this wrong is how a first season ends up emotionally flat while every individual
+scene works. Playtest: *"I only just learned about these characters so there's no emotional
+stakes yet."* Correct, and unfixable from inside that season.
+
+**Leave them wanting more.** The finale should land while the player still has appetite, not
+when the arc is exhausted. In playtest the natural ending arrived at roughly beat 20 — the
+boat, the collection, the delivery to Lisbon — and everything after it was the season
+outstaying its welcome. **Twelve episodes is a ceiling, not a target.** If the material peaks
+at eight, the season was eight.
 
 ### 4.3 Threads — the anti-drift device
 
@@ -695,6 +735,35 @@ player never has to be told which mode they're in — they read it off the verbs
 This is what keeps Pillar V from becoming railroading (risk #10). A cold push is a genuine
 invitation to let someone else be right, and a player who takes it is playing well, not
 failing. A hot moment simply removes the option rather than punishing it.
+
+### 6.2b Invested characters — the player's debts
+
+The single strongest finding of playtest 02, and it overturns an assumption in this document.
+
+We assumed attachment is *authored* — give a character screen time, charm and a backstory.
+It mostly isn't. The character the player cared about was **Rook**, who is a comic nuisance
+with a broken collarbone and no backstory at all.
+
+He mattered for exactly one reason: **the player chose to drag him out of a firing line.**
+
+> *"The only person I've got some interest is Rook because I saved him."*
+
+Authored investment is weak. **Investment the player manufactures themselves is strong**, and
+it is far cheaper — a single choice, not three episodes of charm.
+
+So the game should manufacture debts on purpose:
+
+- **Offer rescues with a cost.** A character the player could walk past and didn't.
+- **Offer mercies.** Someone spared who didn't have to be.
+- **Let the player give something away.** Handing Tess the decision at Braga's counter did
+  more for that relationship than any dialogue had.
+- **Then charge for it.** What the player paid for, they will defend.
+
+**The corollary is the sharpest tool in the box:** *kill what the player chose to save.* It
+costs one character and it manufactures a villain instantly, with no warm bench required —
+because the hatred is already funded by the player's own earlier choice. A murderer of
+someone the player rescued is more menacing on their first appearance than a Mark with three
+episodes of seeding.
 
 ### 6.3 Undisclosed stakes — the mystery box
 

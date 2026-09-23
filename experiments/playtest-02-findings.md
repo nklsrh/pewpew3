@@ -78,6 +78,54 @@ lightness.
 
 ---
 
+## Player verdict, and the four findings that came out of it
+
+Asked for honest feedback at the end, the player gave an engagement curve and four structural
+problems. These are worth more than the ten above, because the ten are craft and these are
+premise.
+
+**The curve:** strong early → **peak at the crew member walking out** → waned through the
+talk stretch → recovered on action → exposition landed adequately → ended emotionally flat.
+
+### A. The treasure was replaced, not layered → §4.2
+> *"I'm no longer chasing valuable treasure."*
+
+The season's object drifted from *a fortune* to *proof of an 88-year-old crime*. Worthy;
+not wanted. Pulp runs on greed and wonder, and the moral stake has to sit **on the same
+object** as the payday, not instead of it.
+
+### B. Season one cannot run a betrayal → §4.2b
+> *"I only just learned about these characters so there's no emotional stakes yet."*
+
+A betrayal needs a relationship and a relationship needs seasons. Season one's job is to make
+the player love the crew and chase one clean treasure. The Mark stays an obstacle. This is
+not fixable from inside season one, which means the whole Braga arc was mistimed by a season.
+
+### C. Investment is manufactured by the player, not authored → §6.2b
+> *"The only person I've got some interest is Rook because I saved him."*
+
+The most-liked character is a comic nuisance with no backstory who was dragged out of a
+firing line **by player choice**. Authored charm lost to one decision. This overturns the
+warm-bench assumption: seeding still matters, but *debts the player incurs themselves* are
+stronger and vastly cheaper.
+
+The player's own follow-on: **kill what the player chose to save**, and the killer becomes a
+villain instantly, fully funded, no seeding required.
+
+### D. The season was too long → §4.2b
+> *"The showdown should have been on the boat... for retention we would want users to leave
+> wanting more."*
+
+The natural finale arrived around beat 20 — the collection, the delivery to Lisbon. Everything
+after was the season outstaying its welcome. Twelve episodes is a ceiling, not a target.
+
+### Also: the Mark wasn't menacing → §4.2 menace test
+Polite, patient, well-motivated, and destroying evidence of something that happened to
+strangers in 1938. **What does he take from the player in the next hour, and would they miss
+it?** Nothing, and no.
+
+---
+
 ## What held up without changes
 
 - **Pillar I — derailment over failure.** Every loss in this session produced better story
