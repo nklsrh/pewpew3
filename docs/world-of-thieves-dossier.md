@@ -21,7 +21,8 @@ design — but read it before proposing a change, because it's where the dead en
 
 ## 1. The one-pager (shareable)
 
-You are **Nate**, the guy who goes through the window. **Mac** is the ageing pilot in the
+You are **Nate**, the guy who goes through the window — and the reason you go through it
+is that there is something on the other side that nobody has seen in four hundred years. **Mac** is the ageing pilot in the
 van who tracks the money and complains about his back. **Tess** drives, hacks, and tells
 you when a stunt costs more than it earns.
 
@@ -42,6 +43,14 @@ Recurring characters remember. **Rook** — a competitor with worse luck and wor
 starts as an obstacle, comes back with a sling and a grudge, beats you once, and eventually
 gets burned by his own employer badly enough that you have to work with him.
 
+**Everyone in this story wants the same thing.** You want the artifact. Mac wants the money.
+The people shooting at you want it too, for exactly those reasons, and usually with a better
+boat. Nobody is here for an ideology. It's a race, and the prize is real.
+
+Bigger prizes need bigger outfits. A townhouse job needs a lockpick; a wreck needs divers,
+sonar and a boat you can't afford yet — so the hoard isn't a score, it's **capital**, and what
+you can go after next is decided by what you came back with.
+
 Jobs are episodes, and twelve of them make a season: a question posed in the first, a
 mandatory gut-punch at the midpoint, a showdown in the twelfth, and a cliffhanger into the
 next. What you've done along the way decides which *shape* that showdown takes.
@@ -53,6 +62,28 @@ run over run, into something that feels authored.
 ---
 
 ## 2. Design pillars
+
+### What everyone wants
+
+The engine of the whole thing, and it is deliberately simple:
+
+| | Wants | Which means in play |
+|---|---|---|
+| **Nate** | The artifact. The history. To be the one who found it. | Takes the harder route to the real thing |
+| **Mac** | Money | Takes the sure thing, and says so out loud |
+| **Tess** | Varies — hers are the personal seasons | The exception that proves the rule |
+| **The antagonists** | **Exactly the same things, for the same reasons** | Richer backers, more men, a head start |
+
+**Antagonists are competitors, not ideologues.** They want the treasure. They are better
+funded than you. The conflict is a *race*, and that is why it works:
+
+- It passes the menace test automatically — what they take from you is the thing you came for.
+- It needs no moral scaffolding, no war crime, no cause. Pulp villains want the gold.
+- Nate vs Mac — **wonder against money** — is a permanent, renewable source of friction for the
+  Push (§6.1). It never needs inventing; it's in the premise.
+
+Moral weight is allowed, and it rides *on the same object as the payday* (§4.2). It is
+seasoning. The moment the treasure stops being worth having, the genre is gone.
 
 **The reframe everything hangs off:** the LLM is not a commentator on the action. It is the
 *showrunner* of a pulp adventure serial, and the action beats are its set pieces.
@@ -74,7 +105,27 @@ Every job settles into four persistent meters:
 | **Bankroll** | Cash. Buys gear, bribes, medics, safehouses. Running dry forces low-rent, dangerous side hustles. |
 | **Crew state** | Mac and Tess's health, morale and **trust**. Injuries remove capabilities (Mac with the bends = no muscle, no pilot, for 48h). Low trust is worse: they stop asking and act alone (§6.3). |
 | **Heat** | Police and syndicate attention. Burns routes, raises bribe costs, seeds ambushes. |
+| **Expedition tier** | What the crew can currently *attempt* — see below. The Score's hardest edge. |
 | **Leads & artifacts** | Physical breadcrumbs — a medal inscription, a logbook, a decoder — that unlock the next destination. |
+
+**The expedition tier is what makes the Score bite** (and it is the answer to risk #3, which
+said the Score might only decorate the debrief). Bigger treasures need bigger outfits, and
+the hoard is the capital that buys them:
+
+| Tier | Needs | What's reachable |
+|---|---|---|
+| **Street** | Nothing but nerve | A townhouse, a museum case, a private collection |
+| **Regional** | A vehicle, a fixer, clean papers | A sealed tomb, a bank vault, a country estate |
+| **Expedition** | A boat, divers, sonar, a pilot | A wreck, an island, a jungle site |
+| **Deep** | All of it, plus a backer you'll regret | Whatever the season has been pointing at |
+
+Two consequences fall straight out of this:
+
+- **The rival is usually a tier above you.** That is *why* they're ahead, and it's a cleaner
+  explanation of villain advantage than competence or cruelty. You beat them by being willing
+  to do it with less.
+- **A Major Loss can cost you a tier**, and dropping from Expedition to Regional is a
+  genuine setback that a cash number alone could never express.
 
 ### Pillar III — Recurring characters on a 3-state track
 Rivals aren't boss fights; they're episodic continuity. The Rook template:
@@ -402,6 +453,20 @@ when the arc is exhausted. In playtest the natural ending arrived at roughly bea
 boat, the collection, the delivery to Lisbon — and everything after it was the season
 outstaying its welcome. **Twelve episodes is a ceiling, not a target.** If the material peaks
 at eight, the season was eight.
+
+### 4.2c Season types
+
+Most seasons are a race for a prize. Some aren't, and the rotation is what stops twelve
+episodes of treasure hunting becoming a format.
+
+| Type | How often | Shape |
+|---|---|---|
+| **The Treasure** | The default. Most seasons. | Find it before they do. Everyone wants it, nobody has a cause. |
+| **The Personal** | Occasionally | The prize matters to one of the crew specifically — their family, their history, their name. That crew member gets the Pushes and the mystery box. |
+| **The Rescue** | Occasionally | Somebody is taken. The treasure becomes the ransom, which is a good way to make a payday feel like a loss. |
+
+A Personal or Rescue season should still have a prize worth having. The difference is *who
+it's for*, not whether it's worth money.
 
 ### 4.3 Threads — the anti-drift device
 
